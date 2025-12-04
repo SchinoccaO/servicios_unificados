@@ -1,0 +1,3687 @@
+{
+  "centros_salud": [
+    {
+      "id": "CS001",
+      "nombre": "Centro de Salud General Mosconi",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP01",
+        "denominacion": "General Mosconi"
+      },
+      "servicios": [
+        {
+          "nombre": "Ginecologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Pedro Naon 1330",
+      "latitud": -31.3648,
+      "longitud": -64.149057,
+      "horarios": "07:00 a 19:00 hs"
+    },
+    {
+      "id": "CS002",
+      "nombre": "Centro de Salud Los Sauces",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP02",
+        "denominacion": "Los Sauces"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Algarrobo 351 esq. Espinillos",
+      "latitud": -31.46223,
+      "longitud": -64.099324,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS003",
+      "nombre": "Centro de Salud Los Pinos",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP03",
+        "denominacion": "Los Pinos"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Los Nogales 3786 (entre M.J. Duran y Rawson)",
+      "latitud": -31.39212,
+      "longitud": -64.140914,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS004",
+      "nombre": "Centro de Salud Nueva Italia",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP04",
+        "denominacion": "Nueva Italia"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Jose de Quevedo esq. Dos Barrios",
+      "latitud": -31.381934,
+      "longitud": -64.142765,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS005",
+      "nombre": "Centro de Salud Yofre Norte",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP05",
+        "denominacion": "Yofre Norte"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Rene de Clairac 1875",
+      "latitud": -31.38667,
+      "longitud": -64.130464,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS006",
+      "nombre": "Centro de Salud Villa Rivera Indarte",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP06",
+        "denominacion": "Villa Rivera Indarte"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Chamico y Reartes",
+      "latitud": -31.32814,
+      "longitud": -64.29749,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS007",
+      "nombre": "Centro de Salud Pueyrredon",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP07",
+        "denominacion": "Pueyrredon"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "CallePasaje Urtubey esq. Faray Bracco",
+      "latitud": -31.400302,
+      "longitud": -64.154813,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS008",
+      "nombre": "Centro de Salud Acosta",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP08",
+        "denominacion": "Acosta"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+          {
+          "nombre": "Ginecologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Corrientes esq. Rio Parana",
+      "latitud": -31.427812,
+      "longitud": -64.130083,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS009",
+      "nombre": "Centro de Salud Alberdi Oeste",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP09",
+        "denominacion": "Alberdi Oeste"
+      },
+      "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Dr. Pedro Chutro",
+      "latitud": -31.404899,
+      "longitud": -64.213926,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS010",
+      "nombre": "Centro de Salud Colonia Lola",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP10",
+        "denominacion": "Colonia Lola"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Lola Mora 1324",
+      "latitud": -31.424926,
+      "longitud": -64.115186,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS100",
+      "nombre": "Centro de Salud Heroes De Malvinas",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP100",
+        "denominacion": "Heroes De Malvinas"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Dirección",
+      "latitud": -31.476027,
+      "longitud": -64.2511264,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS101",
+      "nombre": "Centro de Salud 12 De Julio",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP101",
+        "denominacion": "12 De Julio"
+      },
+      "servicios": [
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },  
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Manuel Lizondo Borda 6000",
+      "latitud": -31.3142923,
+      "longitud": -64.2540959,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS011",
+      "nombre": "Centro de Salud Colon",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP11",
+        "denominacion": "Colon"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Tolosa esq. Castilla 2564",
+      "latitud": -64.164217,
+      "longitud": -31.43975,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS012",
+      "nombre": "Centro de Salud Ferreyra",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP12",
+        "denominacion": "Ferreyra"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Armas Argentinas 5747",
+      "latitud": -31.461173,
+      "longitud": -64.108868,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS013",
+      "nombre": "Centro de Salud Irigoyen",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP13",
+        "denominacion": "Irigoyen"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecologia",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Avellaneda 3571",
+      "latitud": -31.372752,
+      "longitud": -64.186984,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS014",
+      "nombre": "Centro de Salud General Bustos",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP14",
+        "denominacion": "General Bustos"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Tocoginecologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Diagonal IKA 1010",
+      "latitud": -31.387143,
+      "longitud": -64.163957,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS015",
+      "nombre": "Centro de Salud Remedios De Escalada",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP15",
+        "denominacion": "Remedios De Escalada"
+      },
+      "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle 5 entre 14 y 15",
+      "latitud": -31.339123,
+      "longitud": -64.178771,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS016",
+      "nombre": "Centro de Salud Zumaran",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP16",
+        "denominacion": "Zumaran"
+      },
+      "servicios": [
+        {
+          "nombre": "Tocoginecologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Sebastian Gaboto 2356",
+      "latitud": -31.375246,
+      "longitud": -64.205153,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS017",
+      "nombre": "Centro de Salud Villa Azalais OESTE",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP17",
+        "denominacion": "Villa Azalais O"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Acampes esq. Gerchunoff",
+      "latitud": -31.36641,
+      "longitud": -64.175209,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS018",
+      "nombre": "Centro de Salud San Jorge",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP18",
+        "denominacion": "San Jorge"
+      },
+      "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Barrancas del Parana esq. Jose Melian",
+      "latitud": -31.374268,
+      "longitud": -64.132154,
+      "horarios": "07:00 a 18:00 hs"
+    },
+    {
+      "id": "CS019",
+      "nombre": "Centro de Salud Sargento Cabral",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP19",
+        "denominacion": "Sargento Cabral"
+      },
+      "servicios": [
+        {
+          "nombre": "Clinica Medica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Francisco Suarez 3170",
+      "latitud": -31.375731,
+      "longitud": -64.194928,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS020",
+      "nombre": "Centro de Salud Las Margaritas",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP20",
+        "denominacion": "Las Margaritas"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Herminio Malvino 2662",
+      "latitud": -31.377368,
+      "longitud": -64.210984,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS021",
+      "nombre": "Centro de Salud Marquez De Sobremonte",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP21",
+        "denominacion": "Marquez De Sobremonte"
+      },
+          "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Nuflo de Aguilar 5441 esq. Tomas de Irobi",
+      "latitud": -31.364883,
+      "longitud": -64.196747,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS022",
+      "nombre": "Centro de Salud Alberdi  Sud",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP22",
+        "denominacion": "Alberdi  Sud"
+      },
+        "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Gavino Blanco 2229 esq. Angel Avalos",
+      "latitud": -31.412561,
+      "longitud": -64.213613,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS023",
+      "nombre": "Centro de Salud Rosedal Anexo",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP23",
+        "denominacion": "Rosedal Anexo"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Padre Lozano 2490",
+      "latitud": -31.43749,
+      "longitud": -64.22351,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS024",
+      "nombre": "Centro de Salud Cupani",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP24",
+        "denominacion": "Cupani"
+      },
+      "servicios": [
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Isaac Albeniz 1454",
+      "latitud": -31.423763,
+      "longitud": -64.207929,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS025",
+      "nombre": "Centro de Salud San Martin",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP25",
+        "denominacion": "San Martin"
+      },
+      "servicios": [
+        {
+          "nombre": "Clinica Medica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Paso de Uspallata 991",
+      "latitud": -31.394638,
+      "longitud": -64.196768,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS026",
+      "nombre": "Centro de Salud Santa Ana",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP26",
+        "denominacion": "Santa Ana"
+      },
+      "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Gurruchaga 785",
+      "latitud": -31.414465,
+      "longitud": -64.232517,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS027",
+      "nombre": "Centro de Salud Pilar",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP27",
+        "denominacion": "Pilar"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Tapalque esq. Patagonia",
+      "latitud": -31.443944,
+      "longitud": -64.156071,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS028",
+      "nombre": "Centro de Salud Las Violetas",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP28",
+        "denominacion": "Las Violetas"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clinica Medica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Aviador Locatelli y Formosa",
+      "latitud": -31.410755,
+      "longitud": -64.250729,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS029",
+      "nombre": "Centro de Salud Villa Siburu",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP29",
+        "denominacion": "Villa Siburu"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Clodomiro Arzac 550",
+      "latitud": -31.39575,
+      "longitud": -64.227643,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS030",
+      "nombre": "Centro de Salud Villa Paez",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP30",
+        "denominacion": "Villa Paez"
+      },
+      "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Emilio Conti 1050 esq. Silvestre Remonda",
+      "latitud": -31.397133,
+      "longitud": -64.206803,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS031",
+      "nombre": "Centro de Salud La Salle",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP31",
+        "denominacion": "La Salle"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Curaquen 6500",
+      "latitud": -31.344291,
+      "longitud": -64.275016,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS032",
+      "nombre": "Centro de Salud Yapeyu",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP32",
+        "denominacion": "Yapeyu"
+      },
+      "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Loreto 42",
+      "latitud": -31.41276,
+      "longitud": -64.149583,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS033",
+      "nombre": "Centro de Salud Arguello",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP33",
+        "denominacion": "Arguello"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Donato Alvarez 7375",
+      "latitud": -31.33635,
+      "longitud": -64.25974,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS034",
+      "nombre": "Centro de Salud Villa 9 De Julio",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP34",
+        "denominacion": "Villa 9 De Julio"
+      },
+      "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Coquena 7850 esq. Huarpes",
+      "latitud": -31.32854,
+      "longitud": -64.27083,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS035",
+      "nombre": "Centro de Salud Villa Revol",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP35",
+        "denominacion": "Villa Revol"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Chascomus 1750",
+      "latitud": -31.445921,
+      "longitud": -64.170448,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    
+    {
+      "id": "CS037",
+      "nombre": "Centro de Salud Jose I Diaz",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP37",
+        "denominacion": "Jose I Diaz"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle La Rioja 2951",
+      "latitud": -31.43765,
+      "longitud": -64.14721,            
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS038",
+      "nombre": "Centro de Salud General Urquiza",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP38",
+        "denominacion": "General Urquiza"
+      },
+      "servicios": [
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Miguel de Marmol 2956",
+      "latitud": -31.43919,
+      "longitud": -64.14838,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS039",
+      "nombre": "Centro de Salud Ferrer",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP39",
+        "denominacion": "Ferrer"
+      },
+      "servicios": [
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Bustos y Ferreyra 3100 esq. M. Baigorria",
+      "latitud": -31.44526,
+      "longitud": -64.21092,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS040",
+      "nombre": "Centro de Salud Las Flores",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP40",
+        "denominacion": "Las Flores"
+      },
+      "servicios": [
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Circuito de la mujer",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Avenida Armada Argentina 105",
+      "latitud": -31.45121,
+      "longitud": -64.20233,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS041",
+      "nombre": "Centro de Salud Villa El Libertador",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP41",
+        "denominacion": "Villa El Libertador"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Chiclayo 105 esq. Defensa y Pje. Publico",
+      "latitud": -31.47049,
+      "longitud": -64.21509,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS042",
+      "nombre": "Centro de Salud Comercial",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP42",
+        "denominacion": "Comercial"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Virgen de Fatima esq. Río Tercero",
+      "latitud": -31.48423,
+      "longitud": -64.21039,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS043",
+      "nombre": "Centro de Salud Guemes",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP43",
+        "denominacion": "Guemes"
+      },
+      "direccion": "Calle General Simón Bolivar 826",
+      "latitud": -31.42339,
+      "longitud": -64.19502,
+      "horarios": "07:00 a 14:00 hs",
+      "servicios": [
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ]
+    },
+    {
+      "id": "CS044",
+      "nombre": "Centro de Salud Bella Vista",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP44",
+        "denominacion": "Bella Vista"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Alejandro Dumas esq. Venus",
+      "latitud": -31.43446,
+      "longitud": -64.20838,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS045",
+      "nombre": "Centro de Salud Cabo Farina",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP45",
+        "denominacion": "Cabo Farina"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Viña del Mar 4651",
+      "latitud": -31.4636,
+      "longitud": -64.20541,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS046",
+      "nombre": "Centro de Salud Santa Isabel",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP46",
+        "denominacion": "Santa Isabel"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Altos del Tala (entre Catamarca e Isla Verde)",
+      "latitud": -31.47881,
+      "longitud": -64.22948,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS047",
+      "nombre": "Centro de Salud Coronel Olmedo",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP47",
+        "denominacion": "Coronel Olmedo"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Pascual Ruiz Huidobro 5848",
+      "latitud": -31.48131,
+      "longitud": -64.14322,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS048",
+      "nombre": "Centro de Salud Villa Azalais Este",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP48",
+        "denominacion": "Villa Azalais Este"
+      },
+      "servicios": [
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Milan 2960",
+      "latitud": -31.37525,
+      "longitud": -64.15074,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS049",
+      "nombre": "Centro de Salud Colinas Del Cerro",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP49",
+        "denominacion": "Colinas Del Cerro"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Las Acacias esq Ramon Mestre",
+      "latitud": -31.379297,
+      "longitud": -64.248691,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS050",
+      "nombre": "Centro de Salud Villa Adela",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP50",
+        "denominacion": "Villa Adela"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Gabriela Mistral 4711",
+      "latitud": -31.435822,
+      "longitud": -64.248264,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS051",
+      "nombre": "Centro de Salud Guia Azu",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP51",
+        "denominacion": "Guia Azu"
+      },
+      "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "De la Caja esq. Del Erquencho",
+      "latitud": -31.313790,
+      "longitud": -64.176835,
+      "horarios": "07:00 a 18:00 hs"
+    },
+
+    {
+      "id": "CS052",
+      "nombre": "Centro de Salud Villa Urquiza",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP52",
+        "denominacion": "Villa Urquiza"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Humberto Primero esq. Triunvirato",
+      "latitud": -31.391963,
+      "longitud": -64.241363,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS053",
+      "nombre": "Centro de Salud Inaudi",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP53",
+        "denominacion": "Inaudi"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Teniente Nivoli esq. Fiorito",
+      "latitud": -31.47643,
+      "longitud": -64.193448,
+      "horarios": "07:00 a 17:00 hs"
+    },
+    {
+      "id": "CS054",
+      "nombre": "Centro de Salud Los Boulevares",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP54",
+        "denominacion": "Los Boulevares"
+      },
+      "servicios": [
+        {
+          "nombre": "Tocoginecologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Bv de Los Hungaros esq Bv. De los Lombardos",
+      "latitud": -31.344621,
+      "longitud": -64.217497,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS055",
+      "nombre": "Centro de Salud Las Palmas",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP55",
+        "denominacion": "Las Palmas"
+      },
+      "servicios": [
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Miguel de Sopegna 350",
+      "latitud": -31.406385,
+      "longitud": -64.240834,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS056",
+      "nombre": "Centro de Salud Empalme",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP56",
+        "denominacion": "Empalme"
+      },
+      "servicios": [
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Ariza 4800 (entre Samaniego y Pichanas)",
+      "latitud": -31.432059,
+      "longitud": -64.124231,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS057",
+      "nombre": "Centro de Salud Arguello Ipv",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP57",
+        "denominacion": "Arguello Ipv"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Fermin Martin S/N esq. Alberto Fage",
+      "latitud": -31.333354,
+      "longitud": -64.246379,
+      "horarios": "07:00 a 17:00 hs"
+    },
+    {
+      "id": "CS058",
+      "nombre": "Centro de Salud Maldonado",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP58",
+        "denominacion": "Maldonado"
+      },
+      "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Martin Cartechini esq. Blas Parera",
+      "latitud": -31.414486,
+      "longitud": -64.131618,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS059",
+      "nombre": "Centro de Salud Congreso",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP59",
+        "denominacion": "Congreso"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Curazao esq. Ralico",
+      "latitud": -31.467755,
+      "longitud": -64.232624,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS060",
+      "nombre": "Centro de Salud Marquez Anexo",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP60",
+        "denominacion": "Marquez Anexo"
+      },
+      "servicios": [
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Del Molino esq. Del Precursor",
+      "latitud": -31.372003,
+      "longitud": -64.190261,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS061",
+      "nombre": "Centro de Salud El Cerrito",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP61",
+        "denominacion": "El Cerrito"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Domingo Marimon esq Mario Sesarego",
+      "latitud": -31.325207,
+      "longitud": -64.248648,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS062",
+      "nombre": "Centro de Salud Villa Cornu",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP62",
+        "denominacion": "Villa Cornu"
+      },
+      "servicios": [
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Llanquen entre Quilluamila y Lonconche",
+      "latitud": -31.313475,
+      "longitud": -64.2701,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS063",
+      "nombre": "Centro de Salud Parque Republica",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP63",
+        "denominacion": "Parque Republica"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Namuncura y Mariano Rosas",
+      "latitud": -31.415466,
+      "longitud": -64.259353,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS064",
+      "nombre": "Centro de Salud Bialet Masse",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP64",
+        "denominacion": "Bialet Masse"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Los Hornillos esq. Cerro Colorado",
+      "latitud": -31.4525800,
+      "longitud": -64.165414,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS065",
+      "nombre": "Centro de Salud San Roque",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP65",
+        "denominacion": "San Roque"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Guemes (Esq. Kingsley)",
+      "latitud": -31.421891,
+      "longitud": -64.247017,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS066",
+      "nombre": "Centro de Salud Mercantil Anexo",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP66",
+        "denominacion": "Mercantil Anexo"
+      },
+      "servicios": [
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        },
+      {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+      }
+      ],
+      "direccion": "C. Beta 7328",
+      "latitud": -31.325201,
+      "longitud":  -64.262815,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS067",
+      "nombre": "Centro de Salud 16 De Noviembre",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP67",
+        "denominacion": "16 De Noviembre"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Psicología, Salud Mental",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Cauque s/n (al lado del Obrador)",
+      "latitud": -31.313572,
+      "longitud": -64.261726,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS068",
+      "nombre": "Centro de Salud Carcano",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP68",
+        "denominacion": "Carcano"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Generalista/diabetologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle De las Altas Cumbres 3830",
+      "latitud": -31.46598,
+      "longitud": -64.144551,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS069",
+      "nombre": "Centro de Salud Gral Arenales",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP69",
+        "denominacion": "Gral Arenales"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle La Pirincha esq. El Crespin",
+      "latitud": -31.369312,
+      "longitud": -64.060866,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS070",
+      "nombre": "Centro de Salud Estacion Flores",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP70",
+        "denominacion": "Estacion Flores"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Berlin 3540",
+      "latitud": -31.448195,
+      "longitud": -64.247705,
+      "horarios": "07:00 a 17:00 hs"
+    },
+    {
+      "id": "CS071",
+      "nombre": "Centro de Salud Coop El Arco",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP71",
+        "denominacion": "Coop El Arco"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Av. Sotomayor 3421",
+      "latitud": -31.468283,
+      "longitud": -64.157659,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS072",
+      "nombre": "Centro de Salud La Floresta",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP72",
+        "denominacion": "La Floresta"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Las Orquidias s/n (al lado del Centro Vecinal)",
+      "latitud": -31.378005,
+      "longitud": -64.059992,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS073",
+      "nombre": "Centro de Salud Parque Futura",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP73",
+        "denominacion": "Parque Futura"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Guanazacate (Esq. Aruba)",
+      "latitud": -31.483352,
+      "longitud": -64.246765,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS074",
+      "nombre": "Centro de Salud Villa Esquiu",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP74",
+        "denominacion": "Villa Esquiu"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Tocoginecologia",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "A. Arturo Capdevila Km 10",
+      "latitud": -31.355414,
+      "longitud": -64.105461,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS075",
+      "nombre": "Centro de Salud Los Cerveceros",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP75",
+        "denominacion": "Los Cerveceros"
+      },
+      "servicios": [
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle Onofrio Palamara 2825 (entre Reyna y Saavedra)",
+      "latitud": -31.464296,
+      "longitud": -64.16007,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS076",
+      "nombre": "Centro de Salud Villa Union",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP76",
+        "denominacion": "Villa Union"
+      },
+      "servicios": [
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Tres Cruces (Esq. Cataneo)",
+      "latitud":  -31.386524,
+      "longitud": -64.273165,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS077",
+      "nombre": "Centro de Salud Don Bosco",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP77",
+        "denominacion": "Don Bosco"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Santiago Costamagna Nº 7000 esq.Vespignani",
+      "latitud": -31.38667,
+      "longitud": -64.27318,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS078",
+      "nombre": "Centro de Salud Pque Liceo Ii Seccion",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP78",
+        "denominacion": "Pque Liceo Ii Seccion"
+      },
+       "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clinica Medica",
+          "turno_callcenter": false 
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        }
+      ], 
+      "direccion": "Guillermo Hudson 4600 esq Calixto Oyuela", 
+      "latitud": -31.355099,
+      "longitud": -64.167664, 
+      "horarios": "07:00 a 19:00 hs"
+      
+    },
+    {
+      "id": "CS079",
+      "nombre": "Centro de Salud Albert Sabin",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP79",
+        "denominacion": "Albert Sabin"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Camino San Antonio Km 7 1/2", 
+      "latitud": -31.499449,
+      "longitud": -64.198371,
+      "horarios": "07:00 a 19:00 hs"
+    },
+    {
+      "id": "CS080",
+      "nombre": "Centro de Salud Renacimiento",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP80",
+        "denominacion": "Renacimiento"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle Manuel de Oliden 448",
+      "latitud": -31.41547,
+      "longitud": -64.122643,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS081",
+      "nombre": "Centro de Salud San Lorenzo",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP81",
+        "denominacion": "San Lorenzo"
+      },
+      "servicios": [
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Manuel Padilla 4677",
+      "latitud": -31.455072,
+      "longitud": -64.1084924,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS082",
+      "nombre": "Centro de Salud Villa Allende Parque",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP82",
+        "denominacion": "Villa Allende Parque"
+      },
+       "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ], 
+      "direccion": "Manuel Padilla 4677",
+      "latitud": -31.455072,
+      "longitud": -64.1084924,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS083",
+      "nombre": "Centro de Salud Ameghino Norte",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP83",
+        "denominacion": "Ameghino Norte"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar (ginecología)",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Maria Curie y Gonzalez Albarracín",
+      "latitud": -31.4294856,
+      "longitud": -64.2392105,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS084",
+      "nombre": "Centro de Salud Bajo Grande",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP84",
+        "denominacion": "Bajo Grande"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Camino a Chacra de la Merced Km 6 1/2",
+      "latitud": -31.402951,
+      "longitud": -64.089316,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS085",
+      "nombre": "Centro de Salud Patricios Este",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP85",
+        "denominacion": "Patricios Este"
+      },
+      "servicios": [
+        {
+          "nombre": "Clinica Medica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Heroes de Vilcapujio 3725",
+      "latitud": -31.367004,
+      "longitud": -64.136531,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS086",
+      "nombre": "Centro de Salud El Libertador",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP86",
+        "denominacion": "El Libertador"
+      },
+       "servicios": [
+        {
+          "nombre": "Clinica Medica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": " Calle Barraquilla S/N (entre Mercedes y Pje.Publico ex.12)",
+      "latitud": -31.48113,
+      "longitud": -64.21667,
+      "horarios": "07:00 a 17:00 hs"
+    },
+    {
+      "id": "CS087",
+      "nombre": "Centro de Salud Sachi",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP87",
+        "denominacion": "Sachi"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Calle El Dorado 6050",
+      "latitud": -31.454728,
+      "longitud": -64.263078,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS088",
+      "nombre": "Centro de Salud Villa La Merced",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP88",
+        "denominacion": "Villa La Merced"
+      },
+      "servicios": [
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+        "direccion": "Calle El Dorado 6050",
+        "latitud": -31.40128, 
+        "longitud": -64.06082,
+        "horarios": "07:00 a 18:00 hs"
+    },
+    {
+      "id": "CS089",
+      "nombre": "Centro de Salud Villa Rivadavia",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP89",
+        "denominacion": "Villa Rivadavia"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Camino a San Antonio Km 8 1/2",
+      "latitud": -31.51361,
+      "longitud": -64.19639,
+      "horarios": "07:00 a 15:00 hs"
+    },
+    {
+      "id": "CS090",
+      "nombre": "Centro de Salud Ituzaingo Anexo",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP90",
+        "denominacion": "Ituzaingo Anexo"
+      },
+      "servicios": [
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Kinesiología y Fisioterapia",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Calle James Frank 5571",
+      "latitud": -31.463619,
+      "longitud": -64.082319,
+      "horarios": "07:00 a 19:00 hs"
+    },
+    {
+      "id": "CS091",
+      "nombre": "Centro de Salud Villa Bustos",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP91",
+        "denominacion": "Villa Bustos"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Pasaje Ancasti esq. Benjamin Viel",
+      "latitud": -31.439264,
+      "longitud": -64.113185,
+      "horarios": "07:00 a 19:00 hs"
+    },
+    {
+      "id": "CS092",
+      "nombre": "Centro de Salud Los Cortaderos",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP92",
+        "denominacion": "Los Cortaderos"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Boulevard de los Polacos y Canal Norte",
+      "latitud": -31.332015,
+      "longitud": -64.230670,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS093",
+      "nombre": "Centro de Salud Villa La Tela",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP93",
+        "denominacion": "Villa La Tela"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Médica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Aviador Almonacid esq. Avdor Zaar",
+      "latitud": -31.427766,
+      "longitud": -64.252617,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS094",
+      "nombre": "Centro de Salud Pque Liceo Iii Seccion",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP94",
+        "denominacion": "Pque Liceo Iii Seccion"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clinica Medica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Constancio C. Vigil, Esq, Juan Luis Orrego 4735",
+      "latitud": -31.35374,
+      "longitud": -64.151610,
+      "horarios": "07:00 a 15:00 hs"
+    },
+    {
+      "id": "CS095",
+      "nombre": "Centro de Salud Cno 60 Cuadras",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP95",
+        "denominacion": "Cno 60 Cuadras"
+      },
+      "servicios": [
+  {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clinica Medica",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Aviador Almonacid esq. Avdor Zaar",
+      "latitud": -31.427766,
+      "longitud": -64.252617,
+      "horarios": "07:00 a 15:00 hs"
+    },
+    {
+      "id": "CS096",
+      "nombre": "Centro de Salud Jose Ignacio Diaz I",
+      "zona_programatica": "03",
+      "area_programatica": {
+        "codigo_area": "AP96",
+        "denominacion": "Jose Ignacio Diaz I"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Publica Nº 1 Mza. 26 Lote 17",
+      "latitud": -31.443424,
+      "longitud": -64.128413,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS097",
+      "nombre": "Centro de Salud Cabildo",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP97",
+        "denominacion": "Cabildo"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Rio Colorado & Macachin",
+      "latitud": -31.4890578,
+      "longitud": -64.2345784,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS098",
+      "nombre": "Centro de Salud Mercado De Abasto",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP98",
+        "denominacion": "Mercado De Abasto"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Av. de la Semilleria s/n",
+      "latitud": -31.395132,
+      "longitud": -64.112198,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS099",
+      "nombre": "Centro de Salud Los Robles",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP99",
+        "denominacion": "Los Robles"
+      },
+      "servicios": [
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Docentes Argentinos 5890",
+      "latitud": -31.4025916,
+      "longitud": -64.2624685,
+    "horarios": "07:00 a 14:00 hs"
+  }
+],
+"direcciones_especiales": [
+{
+  "id": "DC",
+    "nombre": "Dirección de Especialidades Médicas Centro",
+    "zona_programatica": "00",
+    "area_programatica": {
+      "codigo_area": "DC",
+      "denominacion": "Dc"
+    },
+    "servicios": [
+      {"nombre": "Alergia", "turno_callcenter": true},
+      {"nombre": "Cardiología", "turno_callcenter": true},
+      {"nombre": "Circuito de la Mujer", "turno_callcenter": false},
+      {"nombre": "Clínica Medica", "turno_callcenter": true},
+      {"nombre": "Dermatologia", "turno_callcenter": true},
+      {"nombre": "Diabetologia", "turno_callcenter": true},
+      {"nombre": "Endocrinología", "turno_callcenter": true},
+      {"nombre": "Enfermeria", "turno_callcenter": false},
+      {"nombre": "Fonoaudiología", "turno_callcenter": true},
+      {"nombre": "Gastroenterología", "turno_callcenter": true},
+      {"nombre": "Geriatría", "turno_callcenter": true},
+      {"nombre": "Ginecología y Obstetricia", "turno_callcenter": true},
+      {"nombre": "Imágenes", "turno_callcenter": true},
+      {"nombre": "Infectología", "turno_callcenter": false},
+      {"nombre": "Kinesiología y Fisioterapia", "turno_callcenter": false},
+      {"nombre": "Nefrologia", "turno_callcenter": true},
+      {"nombre": "Neumonología", "turno_callcenter": false},
+      {"nombre": "Neurología", "turno_callcenter": true},
+      {"nombre": "Nutrición", "turno_callcenter": true},
+      {"nombre": "ORL", "turno_callcenter": true},
+      {"nombre": "Odontología", "turno_callcenter": true},
+      {"nombre": "Oftalmología", "turno_callcenter": true},
+      {"nombre": "Pediatría", "turno_callcenter": true},
+      {"nombre": "Reumatología", "turno_callcenter": true},
+      {"nombre": "Salud Mental", "turno_callcenter": false},
+      {"nombre": "Trabajo Social", "turno_callcenter": true},
+      {"nombre": "Traumatología", "turno_callcenter": true}
+    ],
+    "direccion": "Sarmiento 480, Córdoba",
+    "latitud": -31.412043,
+    "longitud": -64.17588,
+    "horarios": "07:00 a 19:00 hs"
+  },
+  {
+    "id": "DN",
+    "nombre": "Dirección de Especialidades Médicas Norte",
+    "zona_programatica": "00",
+    "area_programatica": {
+      "codigo_area": "DN",
+      "denominacion": "Dn"
+    },
+    "servicios": [
+      {"nombre": "Cardiología", "turno_callcenter": true},
+      {"nombre": "Clínica Medica", "turno_callcenter": true},
+      {"nombre": "Dermatologia", "turno_callcenter": true},
+      {"nombre": "Diabetologia", "turno_callcenter": true},
+      {"nombre": "Endocrinología", "turno_callcenter": true},
+      {"nombre": "Enfermeria", "turno_callcenter": false},
+      {"nombre": "Fonoaudiología", "turno_callcenter": true},
+      {"nombre": "Ginecología", "turno_callcenter": true},
+      {"nombre": "Imágenes", "turno_callcenter": true},
+      {"nombre": "Kinesiología y Fisioterapia", "turno_callcenter": false},
+      {"nombre": "Neurología", "turno_callcenter": true},
+      {"nombre": "Nutrición", "turno_callcenter": true},
+      {"nombre": "ORL", "turno_callcenter": true},
+      {"nombre": "Odontología", "turno_callcenter": true},
+      {"nombre": "Oftalmología", "turno_callcenter": true},
+      {"nombre": "Pediatría", "turno_callcenter": true},
+      {"nombre": "Salud Mental", "turno_callcenter": false},
+      {"nombre": "Trabajo Social", "turno_callcenter": true},
+      {"nombre": "Traumatología", "turno_callcenter": true}
+    ],
+    "direccion": "Anacreonte esq. Jujuy - Bº Alta Córdoba",
+    "latitud":  -31.379501,
+    "longitud": -64.181353,
+    "horarios": "07:00 a 19:00 hs"
+  },
+  
+  {
+    "id": "DO",
+    "nombre": "Dirección de Especialidades Médicas Oeste Dr. Benito Soria",
+    "zona_programatica": "00",
+    "area_programatica": {
+      "codigo_area": "DO",
+      "denominacion": "Do"
+    },
+    "servicios": [
+      {"nombre": "Alergia", "turno_callcenter": true},
+      {"nombre": "Cardiología", "turno_callcenter": true},
+      {"nombre": "Circuito de la Mujer", "turno_callcenter": false},
+      {"nombre": "Clínica Medica", "turno_callcenter": true},
+      {"nombre": "Dermatologia", "turno_callcenter": true},
+      {"nombre": "Diabetologia", "turno_callcenter": true},
+      {"nombre": "Endocrinología", "turno_callcenter": true},
+      {"nombre": "Enfermeria", "turno_callcenter": false},
+      {"nombre": "Fonoaudiología", "turno_callcenter": true},
+      {"nombre": "Ginecología y Obstetricia", "turno_callcenter": true},
+      {"nombre": "Imágenes", "turno_callcenter": true},
+      {"nombre": "Kinesiología y Fisioterapia", "turno_callcenter": false},
+      {"nombre": "Medicina familiar", "turno_callcenter": true},
+      {"nombre": "Nefrologia", "turno_callcenter": true},
+      {"nombre": "Nutrición", "turno_callcenter": true},
+      {"nombre": "Odontología", "turno_callcenter": true},
+      {"nombre": "Oftalmología", "turno_callcenter": true},
+      {"nombre": "Pediatría", "turno_callcenter": true},
+      {"nombre": "Reumatología", "turno_callcenter": true},
+      {"nombre": "Salud Mental", "turno_callcenter": false},
+      {"nombre": "Trabajo Social", "turno_callcenter": true},
+      {"nombre": "Traumatología", "turno_callcenter": true}
+    ],
+  "direccion": "Deán Funes 2000, Córdoba",
+  "latitud":  -31.407888,
+  "longitud": -64.209959,
+  "horarios": "07:00 a 19:00 hs"
+}
+],
+"servicios_odontologicos": [
+{
+  "id": "SOM",
+  "nombre": "Servicio Odontológico Municipal",
+  "zona_programatica": "00",
+  "direccion": "San Martin 850",
+  "latitud": -31.40658168,
+  "longitud": -64.17990714,
+  "area_programatica": {
+    "codigo_area": "DC",
+    "denominacion": "Som"
+  },
+  "servicios": [
+    {
+      "nombre": "Servicio de Operatoria",
+      "detalle": "Arreglo de caries."
+    },
+    {
+      "nombre": "Servicio de Exodoncia",
+      "detalle": "Extracciones dentarias simples y complejas (cirugías, tercer molar retenido, canino retenido)."
+    },
+    {
+      "nombre": "Servicio de Endodoncia",
+      "detalle": "Tratamiento de conducto."
+    },
+    {
+      "nombre": "Servicio de Periodoncia",
+      "detalle": "Terapia periodontal (inflamación de encías, gingivitis, periodontitis)."
+    },
+    {
+      "nombre": "Servicio de Prótesis",
+      "detalle": "Prótesis parciales y completas removibles, placa de relajación y arreglos de prótesis."
+    },
+    {
+      "nombre": "Servicio de Implantología",
+      "detalle": "Rehabilitación con implantes."
+    },
+    {
+      "nombre": "Servicio de Estomatología",
+      "detalle": "Diagnóstico de lesiones en la boca."
+    },
+    {
+      "nombre": "Servicio de Odontopediatría",
+      "detalle": "Atención odontológica integral para niños hasta los 12 años."
+    },
+    {
+      "nombre": "Servicio Integral de Adolescentes",
+      "detalle": "Atención odontológica integral para adolescentes hasta los 21 años de edad."
+    },
+    {
+      "nombre": "Servicio de Ortodoncia",
+      "detalle": "Tratamiento ortodóncico y ortopédico para niños y adolescentes."
+    }
+  
+  ],
+  "horarios": "07:00 a 14:00 hs"
+},
+
+      {"id": "SOM24",
+      "nombre": "Servicio Odotológico Municipal 24 hs.",
+      "zona_programatica": "00",
+      "direccion": "Av. Colon 4782",
+      "latitud": -31.39574567,
+      "longitud": -64.24168067,
+      "area_programatica": {
+        "codigo_area": "DC",
+        "denominacion": "Som24"
+      },
+      "horarios": "07:00 a 14:00 hs"
+    }
+  ],
+"hospitales_pronta_atencion": [
+    {
+      "id": "HPACB",
+      "nombre": "Centro de Salud Hospital Pronta Atención Cura Brochero",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP14",
+        "denominacion": "Hospital Pronta Atención Cura Brochero"
+      },
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "HPAMC",
+      "nombre": "Centro de Salud Hospital Pronta Atención Maria Teresa De Calcuta",
+      "zona_programatica": "05",
+      "area_programatica": {
+        "codigo_area": "AP50",
+        "denominacion": "Hospital Pronta Atención Maria Teresa De Calcuta"
+      },
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "HPASJ",
+      "nombre": "Centro de Salud Hospital Pronta Atención San Jorge",
+      "zona_programatica": "02",
+      "area_programatica": {
+        "codigo_area": "AP58",
+        "denominacion": "Hospital Pronta Atención San Jorge"
+      },
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "HPACP",
+      "nombre": "Centro de Salud Hospital Pronta Atención Comipaz",
+      "zona_programatica": "01",
+      "area_programatica": {
+        "codigo_area": "AP14",
+        "denominacion": "Hospital Pronta Atención Comipaz"
+      },
+      "horarios": "07:00 a 14:00 hs"
+    }
+  ],
+"centros_especializados": [
+    {
+      "id": "MP",
+      "nombre": "Medicina Preventiva",
+      "direccion": "Santa Rosa 360",
+      "latitud": -31.41104922,
+      "longitud": -64.18734015,
+      "servicios": [],
+      "horarios": "07:00 a 14:00 hs"
+    },
+  
+    {
+      "id": "PLM",
+      "nombre": "Padre La Monaca",
+      "direccion": "Estanislao Learte 653",
+      "latitud": -31.41734186,
+      "longitud": -64.13689926,
+      "servicios": [],
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CML",
+      "nombre": "CENTRO MUNICIPAL DE SALUD MENTAL - LAZOS",
+      "direccion": "Av. Sabattini 4000",
+      "latitud": -31.365659,
+      "longitud": -64.170686,
+      "servicios": [],
+      "horarios": "07:00 a 14:00 hs"
+    }
+  ],
+"hospitales_municipales": [
+    {
+      "id": "HMPA",
+      "nombre": "Hospital Municipal Príncipe De Asturias",   
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP41",
+        "denominacion": "Hospital Municipal Príncipe De Asturias"
+      },
+      "servicios": [
+        {
+          "nombre": "CARDIOLOGÍA",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "CLINICA MEDICA",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "ENDOCRINOLOGÍA / DIABETOLOGÍA",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "GINECOLOGÍA",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "CIRCUITO DE LA MUJER",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "RADIOGRAFIA",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "NEUROLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NUTRICIÓN",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "NUTRICIÓN INFANTIL/ ENDOCRINOLOGÍA INFANTIL / DIABETES INFANTIL",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "OFTALMOLOGÍA",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "PEDIATRÍA",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "TRAUMATOLOGÍA",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "ANATOMÍA PATOLOGICA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CIRUGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CIRUGÍA PLASTICA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ENDOSCOPÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ENDOSCOPÍA/ COLONOSCOPÍA/ ENDOSCOPIA ALTA O BAJA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "EPIDEMIOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "FONOAUDIOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "HEMOTERAPIA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "INFECTOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "KINESIOLOGÍA / FISIOTERAPIA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "LABORATORIO",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "MEDICINA FAMILIAR",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "MEDICINA LEGAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ODONTOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "SALUD MENTAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "TOCOGINECOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "TOXICOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "TRABAJO SOCIAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "DERMATOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "GASTROENTEROLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "GINECOLOGÍA SIN PATOLOGÍA / CONTROL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "HEMATOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "HEMODINAMIA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "LABORATORIO PULMONAR",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "MEDICINA NUCLEAR",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CIRUGÍA VASCULAR/ FLEBOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NEFROLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NEUMONOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NEUROCIRUGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NEUROLOGÍA (PRÁCTICAS Y CONSULTAS)",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ORL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "REUMATOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "UROLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "VACUNATORIO COVID",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "VACUNATORIO",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ECOGRAFIA",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "IMÁGENES",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ALERGIA / INMUNOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Hemodinamia",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "laboratorio pulmonar",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Medicina nuclear",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Nefrología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Neumonología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "MAMOGRAFÍA",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Av. Valparaiso 1501",
+      "latitud": -31.410634, 
+      "longitud": -64.208126,
+      "horarios": "Consultorio externo: de 7 a 18 hs. Guardia las 24 hs"
+    },
+    {
+      "id": "HMI",
+      "nombre": "Centro de Salud Hospital Municipal Infantil",
+      "zona_programatica": "00",
+      "area_programatica": {
+        "codigo_area": "DC",
+        "denominacion": "Hospital Municipal Infantil"
+      },
+      "servicios": [
+        {
+          "nombre": "ALERGIA / INMUNOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CARDIOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CIRUGÍA INFANTIL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CIRUGÍA PLASTICA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CIRUGÍA VASCULAR/ FLEBOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "PEDIATRÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "DERMATOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "DIABETOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ENDOCRINOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "FONOAUDIOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "GASTROENTEROLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "GUARDIA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "INFECTOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "IMÁGENES",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "KINESIOLOGÍA - FISIOTERAPIA/ PRESTACION ESPIROMETRÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "KINESIOLOGÍA / FISIOTERAPIA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "LABORATORIO",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "MEDICINA DEL DEPORTE",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "MEDICINA DEL DEPORTE / PRESTACION ERGOMETRIA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "MEDICINA LEGAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NEFROLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NEUMONOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NEUROCIRUGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NEUROLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NUTRICIÓN",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "OBESIDAD",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ODONTOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "OFTALMOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ONCOHEMATOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ORL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "PSICOLOGÍA / SALUD MENTAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "PSICOMOTRICIDAD / SALUD MENTAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "PSICOPEDAGOGÍA / SALUD MENTAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "PSIQUIATRÍA / SALUD MENTAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "REUMATOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo social",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "TRAUMATOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "UROLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "VACUNATORIO",
+          "turno_callcenter": false
+        }
+
+      ],
+      "direccion": "Juan Antonio Lavalleja 3050",
+      "latitud": -31.37994147,
+      "longitud": -64.1817355,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "HMU",
+      "nombre": "Centro de Salud Hospital Municipal De Urgencias",
+      "zona_programatica": "00",
+      "area_programatica": {
+        "codigo_area": "DC",
+        "denominacion": "Hospital Municipal De Urgencias"
+      },
+      "servicios": [
+        {
+          "nombre": "CIRUGÍA GENERAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CIRUGÍA PLASTICA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CIRUGÍA VASCULAR/FLEBOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CIRUGÍA TÓRAX",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "FONOAUDIOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "GASTROENTEROLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "INFECTOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NEUROCIRUGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NEUROLOGIA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "TRAUMATOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "TOXICOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "UROLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Anestesia",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ASISTENCIA SOCIAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CARDIOLOGÍA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "CIRCUITO PREQUIRÚRGICOS",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Hemoterapia",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "KINESIOLOGÍA / FISIOTERAPIA",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Laboratorio",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "PROGRAMACIÓN DE CIRUGÍAS",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "MEDICINA LEGAL",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "NUTRICIÓN",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "SALUD MENTAL",
+          "turno_callcenter": false
+          
+        },
+        {
+          "nombre": "Trabajo social",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "VISITAS E INFORMES",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "IMÁGENES",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "ODONTOLOGÍA",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Catamarca 441",
+      "latitud": -31.41266607,
+      "longitud": -64.17592637,
+      "horarios": "Consultorio externo: de 7 a 18 hs. Guardia las 24 hs."
+    }
+  ]
+}
