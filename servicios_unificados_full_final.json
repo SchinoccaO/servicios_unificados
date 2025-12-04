@@ -270,68 +270,7 @@
       "longitud": -64.115186,
       "horarios": "07:00 a 14:00 hs"
     },
-    {
-      "id": "CS100",
-      "nombre": "Centro de Salud Heroes De Malvinas",
-      "zona_programatica": "04",
-      "area_programatica": {
-        "codigo_area": "AP100",
-        "denominacion": "Heroes De Malvinas"
-      },
-      "servicios": [
-        {
-          "nombre": "Pediatría",
-          "turno_callcenter": true
-        },
-        {
-          "nombre": "Medicina General",
-          "turno_callcenter": true
-        },
-        {
-          "nombre": "Odontología",
-          "turno_callcenter": false
-        }
-      ],
-      "direccion": "Dirección",
-      "latitud": -31.476027,
-      "longitud": -64.2511264,
-      "horarios": "07:00 a 14:00 hs"
-    },
-    {
-      "id": "CS101",
-      "nombre": "Centro de Salud 12 De Julio",
-      "zona_programatica": "06",
-      "area_programatica": {
-        "codigo_area": "AP101",
-        "denominacion": "12 De Julio"
-      },
-      "servicios": [
-        {
-          "nombre": "Odontología",
-          "turno_callcenter": true
-        },
-        {
-          "nombre": "Medicina Familiar",
-          "turno_callcenter": false
-        },  
-        {
-          "nombre": "Pediatría",
-          "turno_callcenter": false
-        },
-        {
-          "nombre": "Trabajo Social",
-          "turno_callcenter": false
-        },
-        {
-          "nombre": "Salud Mental",
-          "turno_callcenter": false
-        }
-      ],
-      "direccion": "Manuel Lizondo Borda 6000",
-      "latitud": -31.3142923,
-      "longitud": -64.2540959,
-      "horarios": "07:00 a 14:00 hs"
-    },
+    
     {
       "id": "CS011",
       "nombre": "Centro de Salud Colon",
@@ -2878,7 +2817,69 @@
       "latitud": -31.4025916,
       "longitud": -64.2624685,
     "horarios": "07:00 a 14:00 hs"
-  }
+  },
+{
+      "id": "CS100",
+      "nombre": "Centro de Salud Heroes De Malvinas",
+      "zona_programatica": "04",
+      "area_programatica": {
+        "codigo_area": "AP100",
+        "denominacion": "Heroes De Malvinas"
+      },
+      "servicios": [
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina General",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Dirección",
+      "latitud": -31.476027,
+      "longitud": -64.2511264,
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "CS101",
+      "nombre": "Centro de Salud 12 De Julio",
+      "zona_programatica": "06",
+      "area_programatica": {
+        "codigo_area": "AP101",
+        "denominacion": "12 De Julio"
+      },
+      "servicios": [
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Medicina Familiar",
+          "turno_callcenter": false
+        },  
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        }
+      ],
+      "direccion": "Manuel Lizondo Borda 6000",
+      "latitud": -31.3142923,
+      "longitud": -64.2540959,
+      "horarios": "07:00 a 14:00 hs"
+    }
 ],
 "direcciones_especiales": [
 {
