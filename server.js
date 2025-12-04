@@ -1,3 +1,6 @@
+
+console.log('✅ Este es el server.js correcto');
+
 const express = require('express');
 const data = require('./servicios_unificados_full_final.json');
 
@@ -18,6 +21,10 @@ app.use((req, res, next) => {
 // ---------------------------
 app.get('/', (req, res) => {
   res.send('API de servicios de salud municipales');
+});
+
+app.get('/debug', (req, res) => {
+  res.send('OK: estás en el archivo correcto');
 });
 
 // ---------------------------
@@ -46,6 +53,64 @@ function formatoCentroLite(c) {
     longitud: c.longitud
   };
 }
+
+app.get('/test_odo', (req, res) => {
+  console.log('[DEBUG] Entró al endpoint /centro_odontologia');
+  const lat = parseFloat(req.query.lat);
+  const lon = parseFloat(req.query.lon);
+
+  if (isNaN(lat) || isNaN(lon)) {
+    return res.status(400).json({ error: 'Debes indicar lat y lon' });
+  }
+
+  // Ordenar centros por distancia a coordenadas del usuario
+  const centrosOrdenados = data.centros_salud
+    .map(c => ({
+      ...c,
+      distancia: calcularDistancia(lat, lon, c.latitud, c.longitud)
+    }))
+    .sort((a, b) => a.distancia - b.distancia);
+
+  const asignado = centrosOrdenados[0];
+
+  // Buscar servicio "Odontología" por nombre exacto
+  const servicioOdo = asignado.servicios.find(
+    s => s.nombre.toLowerCase().includes('odonto')
+  );
+
+  if (servicioOdo) {
+    // Caso A: el centro más cercano tiene odontología
+    return res.json({
+      tipo: 'centro_con_odontologia',
+      centro: {
+        id: asignado.id,
+        nombre: asignado.nombre,
+        direccion: asignado.direccion,
+        zona_programatica: asignado.zona_programatica,
+        distancia_km: Number(asignado.distancia.toFixed(2))
+      },
+      servicio: {
+        nombre: servicioOdo.nombre,
+        turno_callcenter: servicioOdo.turno_callcenter || false
+      }
+    });
+  } else {
+    // Caso B: no tiene odontología → redirigir a SOM
+    return res.json({
+      tipo: 'sin_odontologia',
+      mensaje: 'Tu centro más cercano no ofrece odontología actualmente.',
+      redireccion: {
+        titulo: 'Servicio de Orientación Municipal (SOM)',
+        contacto: '0800-XXX-SOM',
+        link: 'https://cordoba.gob.ar/som'
+      }
+    });
+  }
+});
+
+
+
+
 
 // ---------------------------
 // LISTADO DE CENTROS
