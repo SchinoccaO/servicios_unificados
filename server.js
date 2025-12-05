@@ -3,6 +3,7 @@ console.log('✅ Este es el server.js correcto');
 
 const express = require('express');
 const data = require('./servicios_unificados_full_final.json');
+const { calcularDistancia, parseCoordinates } = require('./utils');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -27,20 +28,7 @@ app.get('/debug', (req, res) => {
   res.send('OK: estás en el archivo correcto');
 });
 
-// ---------------------------
-// UTIL: FÓRMULA HAVERSINE
-// ---------------------------
-function calcularDistancia(lat1, lon1, lat2, lon2) {
-  const R = 6371; // km
-  const dLat = (lat2 - lat1) * Math.PI / 180;
-  const dLon = (lon2 - lon1) * Math.PI / 180;
-  const a =
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-    Math.sin(dLon / 2) * Math.sin(dLon / 2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  return R * c;
-}
+// Haversine y parseo de coordenadas están en `utils.js`
 
 // Para no repetir estructura en varios endpoints
 function formatoCentroLite(c) {
@@ -54,14 +42,13 @@ function formatoCentroLite(c) {
   };
 }
 
+// parseCoordinates ahora está en `utils.js`
+
 app.get('/test_odo', (req, res) => {
   console.log('[DEBUG] Entró al endpoint /centro_odontologia');
-  const lat = parseFloat(req.query.lat);
-  const lon = parseFloat(req.query.lon);
-
-  if (isNaN(lat) || isNaN(lon)) {
-    return res.status(400).json({ error: 'Debes indicar lat y lon' });
-  }
+  const coords = parseCoordinates(req);
+  if (coords.error) return res.status(400).json({ error: coords.error });
+  const { lat, lon } = coords;
 
   // Ordenar centros por distancia a coordenadas del usuario
   const centrosOrdenados = data.centros_salud
@@ -69,7 +56,12 @@ app.get('/test_odo', (req, res) => {
       ...c,
       distancia: calcularDistancia(lat, lon, c.latitud, c.longitud)
     }))
+    .filter(c => !Number.isNaN(c.distancia))
     .sort((a, b) => a.distancia - b.distancia);
+
+  if (centrosOrdenados.length === 0) {
+    return res.status(404).json({ error: 'No hay centros con coordenadas válidas para calcular distancia' });
+  }
 
   const asignado = centrosOrdenados[0];
 
@@ -222,28 +214,30 @@ app.get('/centros_salud_mapa', (req, res) => {
 // ---------------------------
 
 app.get('/centros_cercanos', (req, res) => {
-  const lat = parseFloat(req.query.lat);
-  const lon = parseFloat(req.query.lon);
+  const coords = parseCoordinates(req);
+  if (coords.error) return res.status(400).json({ error: coords.error });
+  const { lat, lon } = coords;
   const limit = Math.max(1, Math.min(10, parseInt(req.query.limit) || 3));
-
-  if (isNaN(lat) || isNaN(lon)) {
-    return res.status(400).json({ error: 'Debes indicar lat y lon' });
-  }
 
   const centrosOrdenados = data.centros_salud
     .map(c => ({
       ...c,
       distancia: calcularDistancia(lat, lon, c.latitud, c.longitud)
     }))
-    .sort((a, b) => a.distancia - b.distancia)
-    .slice(0, limit);
+    .filter(c => !Number.isNaN(c.distancia))
+    .sort((a, b) => a.distancia - b.distancia);
 
-  res.json(
-    centrosOrdenados.map(c => ({
-      ...formatoCentroLite(c),
-      distancia_km: Number(c.distancia.toFixed(2))
-    }))
-  );
+  const resultados = centrosOrdenados.slice(0, limit).map(c => ({
+    ...formatoCentroLite(c),
+    distancia_km: Number(c.distancia.toFixed(2))
+  }));
+
+  res.json({
+    resultados,
+    total: centrosOrdenados.length,
+    limit,
+    coords: { lat, lon }
+  });
 });
 
 // ---------------------------
@@ -252,13 +246,10 @@ app.get('/centros_cercanos', (req, res) => {
 // ---------------------------
 
 app.get('/centro_correspondiente', (req, res) => {
-  const lat = parseFloat(req.query.lat);
-  const lon = parseFloat(req.query.lon);
+  const coords = parseCoordinates(req);
+  if (coords.error) return res.status(400).json({ error: coords.error });
+  const { lat, lon } = coords;
   const sugerencias = Math.max(1, Math.min(5, parseInt(req.query.sugerencias) || 3));
-
-  if (isNaN(lat) || isNaN(lon)) {
-    return res.status(400).json({ error: 'Debes indicar lat y lon' });
-  }
 
   // 1) calculamos distancia a todos (por ahora usamos distancia como criterio
   //    práctico de correspondencia)
@@ -267,7 +258,12 @@ app.get('/centro_correspondiente', (req, res) => {
       ...c,
       distancia: calcularDistancia(lat, lon, c.latitud, c.longitud)
     }))
+    .filter(c => !Number.isNaN(c.distancia))
     .sort((a, b) => a.distancia - b.distancia);
+
+  if (centrosOrdenados.length === 0) {
+    return res.status(404).json({ error: 'No hay centros con coordenadas válidas para calcular correspondencia' });
+  }
 
   const principal = centrosOrdenados[0];
   const alternativas = centrosOrdenados.slice(1, sugerencias);
