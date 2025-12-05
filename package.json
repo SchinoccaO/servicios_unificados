@@ -1,0 +1,16 @@
+{
+  "name": "servicios_unificados_api",
+  "version": "1.0.0",
+  "description": "API local para centros de salud - proyecto de ejemplo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --exit"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
