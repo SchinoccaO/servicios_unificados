@@ -11,15 +11,18 @@
       "servicios": [
         {
           "nombre": "Ginecologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Pedro Naon 1330",
@@ -38,15 +41,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Algarrobo 351 esq. Espinillos",
@@ -65,15 +71,18 @@
       "servicios": [
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Los Nogales 3786 (entre M.J. Duran y Rawson)",
@@ -92,15 +101,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Jose de Quevedo esq. Dos Barrios",
@@ -119,19 +131,23 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Rene de Clairac 1875",
@@ -150,11 +166,13 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Chamico y Reartes",
@@ -173,11 +191,13 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "CallePasaje Urtubey esq. Faray Bracco",
@@ -196,15 +216,18 @@
       "servicios": [
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
-          {
+        {
           "nombre": "Ginecologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Corrientes esq. Rio Parana",
@@ -223,19 +246,23 @@
       "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Dr. Pedro Chutro",
@@ -254,15 +281,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Lola Mora 1324",
@@ -270,7 +300,6 @@
       "longitud": -64.115186,
       "horarios": "07:00 a 14:00 hs"
     },
-    
     {
       "id": "CS011",
       "nombre": "Centro de Salud Colon",
@@ -282,11 +311,13 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Tolosa esq. Castilla 2564",
@@ -305,19 +336,23 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Armas Argentinas 5747",
@@ -336,19 +371,23 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecologia",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Avellaneda 3571",
@@ -367,19 +406,23 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Tocoginecologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Diagonal IKA 1010",
@@ -398,19 +441,23 @@
       "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle 5 entre 14 y 15",
@@ -429,15 +476,18 @@
       "servicios": [
         {
           "nombre": "Tocoginecologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Sebastian Gaboto 2356",
@@ -456,19 +506,23 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Acampes esq. Gerchunoff",
@@ -487,19 +541,23 @@
       "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Barrancas del Parana esq. Jose Melian",
@@ -518,15 +576,18 @@
       "servicios": [
         {
           "nombre": "Clinica Medica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Francisco Suarez 3170",
@@ -545,15 +606,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Herminio Malvino 2662",
@@ -569,18 +633,21 @@
         "codigo_area": "AP21",
         "denominacion": "Marquez De Sobremonte"
       },
-          "servicios": [
+      "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Nuflo de Aguilar 5441 esq. Tomas de Irobi",
@@ -596,22 +663,26 @@
         "codigo_area": "AP22",
         "denominacion": "Alberdi  Sud"
       },
-        "servicios": [
+      "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Gavino Blanco 2229 esq. Angel Avalos",
@@ -630,11 +701,13 @@
       "servicios": [
         {
           "nombre": "Medicina General",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Padre Lozano 2490",
@@ -653,15 +726,18 @@
       "servicios": [
         {
           "nombre": "Ginecología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Isaac Albeniz 1454",
@@ -680,15 +756,18 @@
       "servicios": [
         {
           "nombre": "Clinica Medica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Paso de Uspallata 991",
@@ -707,19 +786,23 @@
       "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Gurruchaga 785",
@@ -738,19 +821,23 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Tapalque esq. Patagonia",
@@ -769,19 +856,23 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clinica Medica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Aviador Locatelli y Formosa",
@@ -800,11 +891,13 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Clodomiro Arzac 550",
@@ -823,23 +916,28 @@
       "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Emilio Conti 1050 esq. Silvestre Remonda",
@@ -858,15 +956,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Curaquen 6500",
@@ -885,15 +986,18 @@
       "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Loreto 42",
@@ -912,19 +1016,23 @@
       "servicios": [
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Donato Alvarez 7375",
@@ -943,23 +1051,28 @@
       "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Coquena 7850 esq. Huarpes",
@@ -978,19 +1091,23 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Chascomus 1750",
@@ -998,7 +1115,6 @@
       "longitud": -64.170448,
       "horarios": "07:00 a 14:00 hs"
     },
-    
     {
       "id": "CS037",
       "nombre": "Centro de Salud Jose I Diaz",
@@ -1010,20 +1126,23 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle La Rioja 2951",
       "latitud": -31.43765,
-      "longitud": -64.14721,            
+      "longitud": -64.14721,
       "horarios": "07:00 a 14:00 hs"
     },
     {
@@ -1037,15 +1156,18 @@
       "servicios": [
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Miguel de Marmol 2956",
@@ -1064,15 +1186,18 @@
       "servicios": [
         {
           "nombre": "Ginecología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Bustos y Ferreyra 3100 esq. M. Baigorria",
@@ -1091,23 +1216,28 @@
       "servicios": [
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Circuito de la mujer",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Avenida Armada Argentina 105",
@@ -1126,15 +1256,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Chiclayo 105 esq. Defensa y Pje. Publico",
@@ -1153,11 +1286,13 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Virgen de Fatima esq. Río Tercero",
@@ -1180,7 +1315,8 @@
       "servicios": [
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ]
     },
@@ -1195,19 +1331,23 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Alejandro Dumas esq. Venus",
@@ -1226,11 +1366,13 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Viña del Mar 4651",
@@ -1249,15 +1391,18 @@
       "servicios": [
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Altos del Tala (entre Catamarca e Isla Verde)",
@@ -1276,11 +1421,13 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Pascual Ruiz Huidobro 5848",
@@ -1299,15 +1446,18 @@
       "servicios": [
         {
           "nombre": "Ginecología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Milan 2960",
@@ -1326,15 +1476,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Las Acacias esq Ramon Mestre",
@@ -1353,19 +1506,23 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Gabriela Mistral 4711",
@@ -1384,23 +1541,25 @@
       "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "De la Caja esq. Del Erquencho",
-      "latitud": -31.313790,
+      "latitud": -31.31379,
       "longitud": -64.176835,
       "horarios": "07:00 a 18:00 hs"
     },
-
     {
       "id": "CS052",
       "nombre": "Centro de Salud Villa Urquiza",
@@ -1412,23 +1571,28 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina General",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Humberto Primero esq. Triunvirato",
@@ -1447,19 +1611,23 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Teniente Nivoli esq. Fiorito",
@@ -1478,15 +1646,18 @@
       "servicios": [
         {
           "nombre": "Tocoginecologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Bv de Los Hungaros esq Bv. De los Lombardos",
@@ -1505,15 +1676,18 @@
       "servicios": [
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Miguel de Sopegna 350",
@@ -1532,11 +1706,13 @@
       "servicios": [
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Ariza 4800 (entre Samaniego y Pichanas)",
@@ -1555,15 +1731,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Fermin Martin S/N esq. Alberto Fage",
@@ -1582,15 +1761,18 @@
       "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Martin Cartechini esq. Blas Parera",
@@ -1609,15 +1791,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Curazao esq. Ralico",
@@ -1636,7 +1821,8 @@
       "servicios": [
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Del Molino esq. Del Precursor",
@@ -1655,15 +1841,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Domingo Marimon esq Mario Sesarego",
@@ -1682,7 +1871,8 @@
       "servicios": [
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Llanquen entre Quilluamila y Lonconche",
@@ -1701,19 +1891,23 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Namuncura y Mariano Rosas",
@@ -1732,19 +1926,22 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Los Hornillos esq. Cerro Colorado",
-      "latitud": -31.4525800,
+      "latitud": -31.45258,
       "longitud": -64.165414,
       "horarios": "07:00 a 14:00 hs"
     },
@@ -1759,15 +1956,18 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Guemes (Esq. Kingsley)",
@@ -1786,16 +1986,18 @@
       "servicios": [
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
-      {
+        {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": false
-      }
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
+        }
       ],
       "direccion": "C. Beta 7328",
       "latitud": -31.325201,
-      "longitud":  -64.262815,
+      "longitud": -64.262815,
       "horarios": "07:00 a 14:00 hs"
     },
     {
@@ -1809,23 +2011,28 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Trabajo Social",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Psicología, Salud Mental",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Cauque s/n (al lado del Obrador)",
@@ -1844,15 +2051,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Generalista/diabetologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle De las Altas Cumbres 3830",
@@ -1871,19 +2081,23 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle La Pirincha esq. El Crespin",
@@ -1902,23 +2116,28 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecologia",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Berlin 3540",
@@ -1937,15 +2156,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Av. Sotomayor 3421",
@@ -1964,11 +2186,13 @@
       "servicios": [
         {
           "nombre": "Medicina Familar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Las Orquidias s/n (al lado del Centro Vecinal)",
@@ -1987,23 +2211,28 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Guanazacate (Esq. Aruba)",
@@ -2022,15 +2251,18 @@
       "servicios": [
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Tocoginecologia",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "A. Arturo Capdevila Km 10",
@@ -2049,19 +2281,23 @@
       "servicios": [
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Onofrio Palamara 2825 (entre Reyna y Saavedra)",
@@ -2080,35 +2316,42 @@
       "servicios": [
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Salud Mental",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Trabajo Social",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Tres Cruces (Esq. Cataneo)",
-      "latitud":  -31.386524,
+      "latitud": -31.386524,
       "longitud": -64.273165,
       "horarios": "07:00 a 14:00 hs"
     },
@@ -2123,15 +2366,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Santiago Costamagna Nº 7000 esq.Vespignani",
@@ -2147,33 +2393,37 @@
         "codigo_area": "AP78",
         "denominacion": "Pque Liceo Ii Seccion"
       },
-       "servicios": [
+      "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clinica Medica",
-          "turno_callcenter": false 
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
-      ], 
-      "direccion": "Guillermo Hudson 4600 esq Calixto Oyuela", 
+      ],
+      "direccion": "Guillermo Hudson 4600 esq Calixto Oyuela",
       "latitud": -31.355099,
-      "longitud": -64.167664, 
+      "longitud": -64.167664,
       "horarios": "07:00 a 19:00 hs"
-      
     },
     {
       "id": "CS079",
@@ -2186,26 +2436,31 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Salud Mental",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Trabajo Social",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
-      "direccion": "Camino San Antonio Km 7 1/2", 
+      "direccion": "Camino San Antonio Km 7 1/2",
       "latitud": -31.499449,
       "longitud": -64.198371,
       "horarios": "07:00 a 19:00 hs"
@@ -2221,15 +2476,18 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle Manuel de Oliden 448",
@@ -2248,19 +2506,23 @@
       "servicios": [
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Manuel Padilla 4677",
@@ -2276,20 +2538,23 @@
         "codigo_area": "AP82",
         "denominacion": "Villa Allende Parque"
       },
-       "servicios": [
+      "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
-      ], 
+      ],
       "direccion": "Manuel Padilla 4677",
       "latitud": -31.455072,
       "longitud": -64.1084924,
@@ -2306,19 +2571,23 @@
       "servicios": [
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar (ginecología)",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Maria Curie y Gonzalez Albarracín",
@@ -2337,11 +2606,13 @@
       "servicios": [
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Camino a Chacra de la Merced Km 6 1/2",
@@ -2360,27 +2631,33 @@
       "servicios": [
         {
           "nombre": "Clinica Medica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Salud Mental",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Heroes de Vilcapujio 3725",
@@ -2396,34 +2673,41 @@
         "codigo_area": "AP86",
         "denominacion": "El Libertador"
       },
-       "servicios": [
+      "servicios": [
         {
           "nombre": "Clinica Medica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Salud Mental",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Trabajo Social",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": " Calle Barraquilla S/N (entre Mercedes y Pje.Publico ex.12)",
@@ -2442,15 +2726,18 @@
       "servicios": [
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle El Dorado 6050",
@@ -2469,13 +2756,14 @@
       "servicios": [
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
-        "direccion": "Calle El Dorado 6050",
-        "latitud": -31.40128, 
-        "longitud": -64.06082,
-        "horarios": "07:00 a 18:00 hs"
+      "direccion": "Calle El Dorado 6050",
+      "latitud": -31.40128,
+      "longitud": -64.06082,
+      "horarios": "07:00 a 18:00 hs"
     },
     {
       "id": "CS089",
@@ -2488,19 +2776,23 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Camino a San Antonio Km 8 1/2",
@@ -2519,31 +2811,38 @@
       "servicios": [
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Kinesiología y Fisioterapia",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Salud Mental",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Trabajo Social",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Calle James Frank 5571",
@@ -2562,23 +2861,28 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Salud Mental",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Pasaje Ancasti esq. Benjamin Viel",
@@ -2597,20 +2901,23 @@
       "servicios": [
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Boulevard de los Polacos y Canal Norte",
       "latitud": -31.332015,
-      "longitud": -64.230670,
+      "longitud": -64.23067,
       "horarios": "07:00 a 14:00 hs"
     },
     {
@@ -2624,23 +2931,28 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clínica Médica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Aviador Almonacid esq. Avdor Zaar",
@@ -2659,28 +2971,33 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clinica Medica",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Constancio C. Vigil, Esq, Juan Luis Orrego 4735",
       "latitud": -31.35374,
-      "longitud": -64.151610,
+      "longitud": -64.15161,
       "horarios": "07:00 a 15:00 hs"
     },
     {
@@ -2692,17 +3009,20 @@
         "denominacion": "Cno 60 Cuadras"
       },
       "servicios": [
-  {
+        {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Clinica Medica",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Aviador Almonacid esq. Avdor Zaar",
@@ -2721,15 +3041,18 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Publica Nº 1 Mza. 26 Lote 17",
@@ -2748,19 +3071,23 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Ginecología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Rio Colorado & Macachin",
@@ -2779,11 +3106,13 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Av. de la Semilleria s/n",
@@ -2802,23 +3131,26 @@
       "servicios": [
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Trabajo Social",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Docentes Argentinos 5890",
       "latitud": -31.4025916,
       "longitud": -64.2624685,
-    "horarios": "07:00 a 14:00 hs"
-  },
-{
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
       "id": "CS100",
       "nombre": "Centro de Salud Heroes De Malvinas",
       "zona_programatica": "04",
@@ -2829,15 +3161,18 @@
       "servicios": [
         {
           "nombre": "Pediatría",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina General",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Odontología",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Dirección",
@@ -2856,23 +3191,28 @@
       "servicios": [
         {
           "nombre": "Odontología",
-          "turno_callcenter": true
+          "turno_callcenter": true,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Medicina Familiar",
-          "turno_callcenter": false
-        },  
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
+        },
         {
           "nombre": "Pediatría",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Trabajo Social",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         },
         {
           "nombre": "Salud Mental",
-          "turno_callcenter": false
+          "turno_callcenter": false,
+          "informacion": "Consultar requisitos en centro"
         }
       ],
       "direccion": "Manuel Lizondo Borda 6000",
@@ -2880,182 +3220,384 @@
       "longitud": -64.2540959,
       "horarios": "07:00 a 14:00 hs"
     }
-],
-"direcciones_especiales": [
-{
-  "id": "DC",
-    "nombre": "Dirección de Especialidades Médicas Centro",
-    "zona_programatica": "00",
-    "area_programatica": {
-      "codigo_area": "DC",
-      "denominacion": "Dc"
-    },
-    "servicios": [
-      {"nombre": "Alergia", "turno_callcenter": true},
-      {"nombre": "Cardiología", "turno_callcenter": true},
-      {"nombre": "Circuito de la Mujer", "turno_callcenter": false},
-      {"nombre": "Clínica Medica", "turno_callcenter": true},
-      {"nombre": "Dermatologia", "turno_callcenter": true},
-      {"nombre": "Diabetologia", "turno_callcenter": true},
-      {"nombre": "Endocrinología", "turno_callcenter": true},
-      {"nombre": "Enfermeria", "turno_callcenter": false},
-      {"nombre": "Fonoaudiología", "turno_callcenter": true},
-      {"nombre": "Gastroenterología", "turno_callcenter": true},
-      {"nombre": "Geriatría", "turno_callcenter": true},
-      {"nombre": "Ginecología y Obstetricia", "turno_callcenter": true},
-      {"nombre": "Imágenes", "turno_callcenter": true},
-      {"nombre": "Infectología", "turno_callcenter": false},
-      {"nombre": "Kinesiología y Fisioterapia", "turno_callcenter": false},
-      {"nombre": "Nefrologia", "turno_callcenter": true},
-      {"nombre": "Neumonología", "turno_callcenter": false},
-      {"nombre": "Neurología", "turno_callcenter": true},
-      {"nombre": "Nutrición", "turno_callcenter": true},
-      {"nombre": "ORL", "turno_callcenter": true},
-      {"nombre": "Odontología", "turno_callcenter": true},
-      {"nombre": "Oftalmología", "turno_callcenter": true},
-      {"nombre": "Pediatría", "turno_callcenter": true},
-      {"nombre": "Reumatología", "turno_callcenter": true},
-      {"nombre": "Salud Mental", "turno_callcenter": false},
-      {"nombre": "Trabajo Social", "turno_callcenter": true},
-      {"nombre": "Traumatología", "turno_callcenter": true}
-    ],
-    "direccion": "Sarmiento 480, Córdoba",
-    "latitud": -31.412043,
-    "longitud": -64.17588,
-    "horarios": "07:00 a 19:00 hs"
-  },
-  {
-    "id": "DN",
-    "nombre": "Dirección de Especialidades Médicas Norte",
-    "zona_programatica": "00",
-    "area_programatica": {
-      "codigo_area": "DN",
-      "denominacion": "Dn"
-    },
-    "servicios": [
-      {"nombre": "Cardiología", "turno_callcenter": true},
-      {"nombre": "Clínica Medica", "turno_callcenter": true},
-      {"nombre": "Dermatologia", "turno_callcenter": true},
-      {"nombre": "Diabetologia", "turno_callcenter": true},
-      {"nombre": "Endocrinología", "turno_callcenter": true},
-      {"nombre": "Enfermeria", "turno_callcenter": false},
-      {"nombre": "Fonoaudiología", "turno_callcenter": true},
-      {"nombre": "Ginecología", "turno_callcenter": true},
-      {"nombre": "Imágenes", "turno_callcenter": true},
-      {"nombre": "Kinesiología y Fisioterapia", "turno_callcenter": false},
-      {"nombre": "Neurología", "turno_callcenter": true},
-      {"nombre": "Nutrición", "turno_callcenter": true},
-      {"nombre": "ORL", "turno_callcenter": true},
-      {"nombre": "Odontología", "turno_callcenter": true},
-      {"nombre": "Oftalmología", "turno_callcenter": true},
-      {"nombre": "Pediatría", "turno_callcenter": true},
-      {"nombre": "Salud Mental", "turno_callcenter": false},
-      {"nombre": "Trabajo Social", "turno_callcenter": true},
-      {"nombre": "Traumatología", "turno_callcenter": true}
-    ],
-    "direccion": "Anacreonte esq. Jujuy - Bº Alta Córdoba",
-    "latitud":  -31.379501,
-    "longitud": -64.181353,
-    "horarios": "07:00 a 19:00 hs"
-  },
-  
-  {
-    "id": "DO",
-    "nombre": "Dirección de Especialidades Médicas Oeste Dr. Benito Soria",
-    "zona_programatica": "00",
-    "area_programatica": {
-      "codigo_area": "DO",
-      "denominacion": "Do"
-    },
-    "servicios": [
-      {"nombre": "Alergia", "turno_callcenter": true},
-      {"nombre": "Cardiología", "turno_callcenter": true},
-      {"nombre": "Circuito de la Mujer", "turno_callcenter": false},
-      {"nombre": "Clínica Medica", "turno_callcenter": true},
-      {"nombre": "Dermatologia", "turno_callcenter": true},
-      {"nombre": "Diabetologia", "turno_callcenter": true},
-      {"nombre": "Endocrinología", "turno_callcenter": true},
-      {"nombre": "Enfermeria", "turno_callcenter": false},
-      {"nombre": "Fonoaudiología", "turno_callcenter": true},
-      {"nombre": "Ginecología y Obstetricia", "turno_callcenter": true},
-      {"nombre": "Imágenes", "turno_callcenter": true},
-      {"nombre": "Kinesiología y Fisioterapia", "turno_callcenter": false},
-      {"nombre": "Medicina familiar", "turno_callcenter": true},
-      {"nombre": "Nefrologia", "turno_callcenter": true},
-      {"nombre": "Nutrición", "turno_callcenter": true},
-      {"nombre": "Odontología", "turno_callcenter": true},
-      {"nombre": "Oftalmología", "turno_callcenter": true},
-      {"nombre": "Pediatría", "turno_callcenter": true},
-      {"nombre": "Reumatología", "turno_callcenter": true},
-      {"nombre": "Salud Mental", "turno_callcenter": false},
-      {"nombre": "Trabajo Social", "turno_callcenter": true},
-      {"nombre": "Traumatología", "turno_callcenter": true}
-    ],
-  "direccion": "Deán Funes 2000, Córdoba",
-  "latitud":  -31.407888,
-  "longitud": -64.209959,
-  "horarios": "07:00 a 19:00 hs"
-}
-],
-"servicios_odontologicos": [
-{
-  "id": "SOM",
-  "nombre": "Servicio Odontológico Municipal",
-  "zona_programatica": "00",
-  "direccion": "San Martin 850",
-  "latitud": -31.40658168,
-  "longitud": -64.17990714,
-  "area_programatica": {
-    "codigo_area": "DC",
-    "denominacion": "Som"
-  },
-  "servicios": [
-    {
-      "nombre": "Servicio de Operatoria",
-      "detalle": "Arreglo de caries."
-    },
-    {
-      "nombre": "Servicio de Exodoncia",
-      "detalle": "Extracciones dentarias simples y complejas (cirugías, tercer molar retenido, canino retenido)."
-    },
-    {
-      "nombre": "Servicio de Endodoncia",
-      "detalle": "Tratamiento de conducto."
-    },
-    {
-      "nombre": "Servicio de Periodoncia",
-      "detalle": "Terapia periodontal (inflamación de encías, gingivitis, periodontitis)."
-    },
-    {
-      "nombre": "Servicio de Prótesis",
-      "detalle": "Prótesis parciales y completas removibles, placa de relajación y arreglos de prótesis."
-    },
-    {
-      "nombre": "Servicio de Implantología",
-      "detalle": "Rehabilitación con implantes."
-    },
-    {
-      "nombre": "Servicio de Estomatología",
-      "detalle": "Diagnóstico de lesiones en la boca."
-    },
-    {
-      "nombre": "Servicio de Odontopediatría",
-      "detalle": "Atención odontológica integral para niños hasta los 12 años."
-    },
-    {
-      "nombre": "Servicio Integral de Adolescentes",
-      "detalle": "Atención odontológica integral para adolescentes hasta los 21 años de edad."
-    },
-    {
-      "nombre": "Servicio de Ortodoncia",
-      "detalle": "Tratamiento ortodóncico y ortopédico para niños y adolescentes."
-    }
-  
   ],
-  "horarios": "07:00 a 14:00 hs"
-},
-
-      {"id": "SOM24",
+  "direcciones_especiales": [
+    {
+      "id": "DC",
+      "nombre": "Dirección de Especialidades Médicas Centro",
+      "zona_programatica": "00",
+      "area_programatica": {
+        "codigo_area": "DC",
+        "denominacion": "Dc"
+      },
+      "servicios": [
+        {
+          "nombre": "Alergia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Cardiología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Circuito de la Mujer",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Clínica Medica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Dermatologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Diabetologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Endocrinología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Enfermeria",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Fonoaudiología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Gastroenterología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Geriatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología y Obstetricia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Imágenes",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Infectología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Kinesiología y Fisioterapia",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Nefrologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Neumonología",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Neurología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Nutrición",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "ORL",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Oftalmología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Reumatología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Traumatología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Sarmiento 480, Córdoba",
+      "latitud": -31.412043,
+      "longitud": -64.17588,
+      "horarios": "07:00 a 19:00 hs"
+    },
+    {
+      "id": "DN",
+      "nombre": "Dirección de Especialidades Médicas Norte",
+      "zona_programatica": "00",
+      "area_programatica": {
+        "codigo_area": "DN",
+        "denominacion": "Dn"
+      },
+      "servicios": [
+        {
+          "nombre": "Cardiología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Clínica Medica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Dermatologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Diabetologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Endocrinología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Enfermeria",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Fonoaudiología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Imágenes",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Kinesiología y Fisioterapia",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Neurología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Nutrición",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "ORL",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Oftalmología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Traumatología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Anacreonte esq. Jujuy - Bº Alta Córdoba",
+      "latitud": -31.379501,
+      "longitud": -64.181353,
+      "horarios": "07:00 a 19:00 hs"
+    },
+    {
+      "id": "DO",
+      "nombre": "Dirección de Especialidades Médicas Oeste Dr. Benito Soria",
+      "zona_programatica": "00",
+      "area_programatica": {
+        "codigo_area": "DO",
+        "denominacion": "Do"
+      },
+      "servicios": [
+        {
+          "nombre": "Alergia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Cardiología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Circuito de la Mujer",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Clínica Medica",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Dermatologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Diabetologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Endocrinología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Enfermeria",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Fonoaudiología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Ginecología y Obstetricia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Imágenes",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Kinesiología y Fisioterapia",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Medicina familiar",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Nefrologia",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Nutrición",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Odontología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Oftalmología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Pediatría",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Reumatología",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Salud Mental",
+          "turno_callcenter": false
+        },
+        {
+          "nombre": "Trabajo Social",
+          "turno_callcenter": true
+        },
+        {
+          "nombre": "Traumatología",
+          "turno_callcenter": true
+        }
+      ],
+      "direccion": "Deán Funes 2000, Córdoba",
+      "latitud": -31.407888,
+      "longitud": -64.209959,
+      "horarios": "07:00 a 19:00 hs"
+    }
+  ],
+  "servicios_odontologicos": [
+    {
+      "id": "SOM",
+      "nombre": "Servicio Odontológico Municipal",
+      "zona_programatica": "00",
+      "direccion": "San Martin 850",
+      "latitud": -31.40658168,
+      "longitud": -64.17990714,
+      "area_programatica": {
+        "codigo_area": "DC",
+        "denominacion": "Som"
+      },
+      "servicios": [
+        {
+          "nombre": "Servicio de Operatoria",
+          "detalle": "Arreglo de caries."
+        },
+        {
+          "nombre": "Servicio de Exodoncia",
+          "detalle": "Extracciones dentarias simples y complejas (cirugías, tercer molar retenido, canino retenido)."
+        },
+        {
+          "nombre": "Servicio de Endodoncia",
+          "detalle": "Tratamiento de conducto."
+        },
+        {
+          "nombre": "Servicio de Periodoncia",
+          "detalle": "Terapia periodontal (inflamación de encías, gingivitis, periodontitis)."
+        },
+        {
+          "nombre": "Servicio de Prótesis",
+          "detalle": "Prótesis parciales y completas removibles, placa de relajación y arreglos de prótesis."
+        },
+        {
+          "nombre": "Servicio de Implantología",
+          "detalle": "Rehabilitación con implantes."
+        },
+        {
+          "nombre": "Servicio de Estomatología",
+          "detalle": "Diagnóstico de lesiones en la boca."
+        },
+        {
+          "nombre": "Servicio de Odontopediatría",
+          "detalle": "Atención odontológica integral para niños hasta los 12 años."
+        },
+        {
+          "nombre": "Servicio Integral de Adolescentes",
+          "detalle": "Atención odontológica integral para adolescentes hasta los 21 años de edad."
+        },
+        {
+          "nombre": "Servicio de Ortodoncia",
+          "detalle": "Tratamiento ortodóncico y ortopédico para niños y adolescentes."
+        }
+      ],
+      "horarios": "07:00 a 14:00 hs"
+    },
+    {
+      "id": "SOM24",
       "nombre": "Servicio Odotológico Municipal 24 hs.",
       "zona_programatica": "00",
       "direccion": "Av. Colon 4782",
@@ -3068,7 +3610,7 @@
       "horarios": "07:00 a 14:00 hs"
     }
   ],
-"hospitales_pronta_atencion": [
+  "hospitales_pronta_atencion": [
     {
       "id": "HPACB",
       "nombre": "Centro de Salud Hospital Pronta Atención Cura Brochero",
@@ -3110,7 +3652,7 @@
       "horarios": "07:00 a 14:00 hs"
     }
   ],
-"centros_especializados": [
+  "centros_especializados": [
     {
       "id": "MP",
       "nombre": "Medicina Preventiva",
@@ -3120,7 +3662,6 @@
       "servicios": [],
       "horarios": "07:00 a 14:00 hs"
     },
-  
     {
       "id": "PLM",
       "nombre": "Padre La Monaca",
@@ -3140,10 +3681,10 @@
       "horarios": "07:00 a 14:00 hs"
     }
   ],
-"hospitales_municipales": [
+  "hospitales_municipales": [
     {
       "id": "HMPA",
-      "nombre": "Hospital Municipal Príncipe De Asturias",   
+      "nombre": "Hospital Municipal Príncipe De Asturias",
       "zona_programatica": "04",
       "area_programatica": {
         "codigo_area": "AP41",
@@ -3384,7 +3925,7 @@
         }
       ],
       "direccion": "Av. Valparaiso 1501",
-      "latitud": -31.410634, 
+      "latitud": -31.410634,
       "longitud": -64.208126,
       "horarios": "Consultorio externo: de 7 a 18 hs. Guardia las 24 hs"
     },
@@ -3553,7 +4094,6 @@
           "nombre": "VACUNATORIO",
           "turno_callcenter": false
         }
-
       ],
       "direccion": "Juan Antonio Lavalleja 3050",
       "latitud": -31.37994147,
@@ -3660,7 +4200,6 @@
         {
           "nombre": "SALUD MENTAL",
           "turno_callcenter": false
-          
         },
         {
           "nombre": "Trabajo social",
