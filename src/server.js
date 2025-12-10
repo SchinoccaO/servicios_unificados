@@ -2,23 +2,27 @@
 console.log('✅ Este es el server.js correcto');
 
 const express = require('express');
-const data = require('./servicios_unificados_full_final.json');
+const compression = require('compression');
+const data = require('../data/servicios_unificados_full_final.json');
+const { calcularDistancia, parseCoordinates } = require('./utils');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// ---------------------------
+// Comprimir respuestas con gzip para optimizar móviles
+app.use(compression());
+
 // MIDDLEWARE DE LOG BÁSICO
-// ---------------------------
+
 app.use((req, res, next) => {
   const now = new Date().toISOString();
   console.log(`[${now}] ${req.method} ${req.originalUrl}`);
   next();
 });
 
-// ---------------------------
+
 // ENDPOINT RAÍZ
-// ---------------------------
+
 app.get('/', (req, res) => {
   res.send('API de servicios de salud municipales');
 });
@@ -27,22 +31,37 @@ app.get('/debug', (req, res) => {
   res.send('OK: estás en el archivo correcto');
 });
 
-// ---------------------------
-// UTIL: FÓRMULA HAVERSINE
-// ---------------------------
-function calcularDistancia(lat1, lon1, lat2, lon2) {
-  const R = 6371; // km
-  const dLat = (lat2 - lat1) * Math.PI / 180;
-  const dLon = (lon2 - lon1) * Math.PI / 180;
-  const a =
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-    Math.sin(dLon / 2) * Math.sin(dLon / 2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  return R * c;
-}
+// Health check endpoint
+app.get('/health', (req, res) => {
+  try {
+    res.status(200).json({
+      status: 'ok',
+      version: '1.0.0',
+      timestamp: new Date().toISOString(),
+      services: {
+        centros_salud: data?.centros_salud ? true : false,
+        utils_coordenadas: true
+      },
+      metadata: {
+        total_centros: data?.centros_salud?.length || 0,
+        environment: process.env.NODE_ENV || 'development'
+      }
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: 'error',
+      message: 'Health check failed',
+      error: error.message
+    });
+  }
+});
+
+// Haversine y parseo de coordenadas están en `utils.js`
+
+
 
 // Para no repetir estructura en varios endpoints
+// es en formato LITE. la idea es que sea para listados rápidos o mapas.
 function formatoCentroLite(c) {
   return {
     id: c.id,
@@ -54,14 +73,38 @@ function formatoCentroLite(c) {
   };
 }
 
+// Formato completo para listado general
+//
+function formatoCentroCompleto(c) {
+  const hasValidCoords = typeof c.latitud === 'number' && typeof c.longitud === 'number';
+  return {
+    id: c.id,
+    nombre: c.nombre,
+    direccion: c.direccion,
+    zona_programatica: c.zona_programatica,
+    coordenadas: hasValidCoords ? {
+      latitud: c.latitud,
+      longitud: c.longitud,
+      validas: true
+    } : {
+      latitud: null,
+      longitud: null,
+      validas: false
+    },
+    servicios: c.servicios || [],
+    horarios: c.horarios || 'No especificado',
+    mapa_url: hasValidCoords ? `https://maps.google.com/?q=${c.latitud},${c.longitud}` : null,
+    area_programatica: c.area_programatica || {}
+  };
+}
+
+// parseCoordinates está en `utils.js`
+
 app.get('/test_odo', (req, res) => {
   console.log('[DEBUG] Entró al endpoint /centro_odontologia');
-  const lat = parseFloat(req.query.lat);
-  const lon = parseFloat(req.query.lon);
-
-  if (isNaN(lat) || isNaN(lon)) {
-    return res.status(400).json({ error: 'Debes indicar lat y lon' });
-  }
+  const coords = parseCoordinates(req);
+  if (coords.error) return res.status(400).json({ error: coords.error });
+  const { lat, lon } = coords;
 
   // Ordenar centros por distancia a coordenadas del usuario
   const centrosOrdenados = data.centros_salud
@@ -69,7 +112,12 @@ app.get('/test_odo', (req, res) => {
       ...c,
       distancia: calcularDistancia(lat, lon, c.latitud, c.longitud)
     }))
+    .filter(c => !Number.isNaN(c.distancia))
     .sort((a, b) => a.distancia - b.distancia);
+
+  if (centrosOrdenados.length === 0) {
+    return res.status(404).json({ error: 'No hay centros con coordenadas válidas para calcular distancia' });
+  }
 
   const asignado = centrosOrdenados[0];
 
@@ -117,29 +165,20 @@ app.get('/test_odo', (req, res) => {
 // ---------------------------
 
 // Un solo endpoint:
-// - sin page/limit → devuelve todo (útil para backoffice, pruebas)
+// - sin page/limit → devuelve todo con formato completo (RF1)
 // - con page/limit → paginado (para el bot, paneles, etc.)
+
 app.get('/centros_salud', (req, res) => {
   const total = data.centros_salud.length;
 
   const pageRaw = req.query.page;
   const limitRaw = req.query.limit;
-  const zonaFiltro = req.query.zona_programatica;
 
-  // Filtrado por zona programática (opcional)
-  let centrosFiltrados = data.centros_salud;
-  if (zonaFiltro) {
-    centrosFiltrados = centrosFiltrados.filter(
-    c => c.zona_programatica.toLowerCase() === zonaFiltro.toLowerCase()
-    );
-  }
-const totalFiltrados = centrosFiltrados.length;
-
-  // Si NO pasan paginación -> devolver todo
+  // Si NO pasan paginación -> devolver todo con formato completo (cumple RF1)
   if (!pageRaw && !limitRaw) {
     return res.json({
       total,
-      resultados: data.centros_salud
+      resultados: data.centros_salud.map(formatoCentroCompleto)
     });
   }
 
@@ -160,7 +199,7 @@ const totalFiltrados = centrosFiltrados.length;
 
   const start = (page - 1) * limit;
   const end = start + limit;
-  const resultados = data.centros_salud.slice(start, end);
+  const resultados = data.centros_salud.slice(start, end).map(formatoCentroCompleto);
 
   res.json({
     resultados,
@@ -171,15 +210,19 @@ const totalFiltrados = centrosFiltrados.length;
   });
 });
 
-// Un centro por ID
+// Un centro por ID (con soporte para ?detail=lite|completo)
 app.get('/centros_salud/:id', (req, res) => {
+  const detail = req.query.detail || 'lite'; // por defecto lite para móviles
+  
   const centro = data.centros_salud.find(
     c => c.id === req.params.id.toUpperCase()
   );
   if (!centro) {
     return res.status(404).json({ error: 'Centro no encontrado' });
   }
-  res.json(centro);
+  
+  const formatter = detail === 'completo' ? formatoCentroCompleto : formatoCentroLite;
+  res.json(formatter(centro));
 });
 
 // Servicios de un centro (con filtro por callcenter)
@@ -222,28 +265,31 @@ app.get('/centros_salud_mapa', (req, res) => {
 // ---------------------------
 
 app.get('/centros_cercanos', (req, res) => {
-  const lat = parseFloat(req.query.lat);
-  const lon = parseFloat(req.query.lon);
+  const coords = parseCoordinates(req);
+  if (coords.error) return res.status(400).json({ error: coords.error });
+  const { lat, lon } = coords;
   const limit = Math.max(1, Math.min(10, parseInt(req.query.limit) || 3));
-
-  if (isNaN(lat) || isNaN(lon)) {
-    return res.status(400).json({ error: 'Debes indicar lat y lon' });
-  }
 
   const centrosOrdenados = data.centros_salud
     .map(c => ({
       ...c,
       distancia: calcularDistancia(lat, lon, c.latitud, c.longitud)
     }))
-    .sort((a, b) => a.distancia - b.distancia)
-    .slice(0, limit);
+    .filter(c => !Number.isNaN(c.distancia))
+    .sort((a, b) => a.distancia - b.distancia);
 
-  res.json(
-    centrosOrdenados.map(c => ({
-      ...formatoCentroLite(c),
-      distancia_km: Number(c.distancia.toFixed(2))
-    }))
-  );
+  const resultados = centrosOrdenados.slice(0, limit).map(c => ({
+    ...formatoCentroLite(c),
+    distancia_km: Number(c.distancia.toFixed(2)),
+    horarios: c.horarios || 'No especificado'
+  }));
+
+  res.json({
+    resultados,
+    total: centrosOrdenados.length,
+    limit,
+    coords: { lat, lon }
+  });
 });
 
 // ---------------------------
@@ -252,13 +298,10 @@ app.get('/centros_cercanos', (req, res) => {
 // ---------------------------
 
 app.get('/centro_correspondiente', (req, res) => {
-  const lat = parseFloat(req.query.lat);
-  const lon = parseFloat(req.query.lon);
+  const coords = parseCoordinates(req);
+  if (coords.error) return res.status(400).json({ error: coords.error });
+  const { lat, lon } = coords;
   const sugerencias = Math.max(1, Math.min(5, parseInt(req.query.sugerencias) || 3));
-
-  if (isNaN(lat) || isNaN(lon)) {
-    return res.status(400).json({ error: 'Debes indicar lat y lon' });
-  }
 
   // 1) calculamos distancia a todos (por ahora usamos distancia como criterio
   //    práctico de correspondencia)
@@ -267,7 +310,12 @@ app.get('/centro_correspondiente', (req, res) => {
       ...c,
       distancia: calcularDistancia(lat, lon, c.latitud, c.longitud)
     }))
+    .filter(c => !Number.isNaN(c.distancia))
     .sort((a, b) => a.distancia - b.distancia);
+
+  if (centrosOrdenados.length === 0) {
+    return res.status(404).json({ error: 'No hay centros con coordenadas válidas para calcular correspondencia' });
+  }
 
   const principal = centrosOrdenados[0];
   const alternativas = centrosOrdenados.slice(1, sugerencias);
@@ -304,6 +352,11 @@ function zonaProgramaticaPorCoordenadas(lat, lon) {
 // ---------------------------
 // START SERVER
 // ---------------------------
-app.listen(PORT, () => {
-  console.log(`Servidor escuchando en http://localhost:${PORT}`);
-});
+
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Servidor escuchando en http://localhost:${PORT}`);
+  });
+}
+
+module.exports = app; // para tests con supertest
