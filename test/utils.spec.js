@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { calcularDistancia, parseCoordinates } = require('../utils');
+const { calcularDistancia, parseCoordinates } = require('../src/utils');
 
 describe('Utils', function() {
   describe('calcularDistancia', function() {

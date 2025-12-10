@@ -2,24 +2,23 @@
 console.log('✅ Este es el server.js correcto');
 
 const express = require('express');
-const data = require('./servicios_unificados_full_final.json');
+const data = require('../data/servicios_unificados_full_final.json');
 const { calcularDistancia, parseCoordinates } = require('./utils');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// ---------------------------
 // MIDDLEWARE DE LOG BÁSICO
-// ---------------------------
+
 app.use((req, res, next) => {
   const now = new Date().toISOString();
   console.log(`[${now}] ${req.method} ${req.originalUrl}`);
   next();
 });
 
-// ---------------------------
+
 // ENDPOINT RAÍZ
-// ---------------------------
+
 app.get('/', (req, res) => {
   res.send('API de servicios de salud municipales');
 });
@@ -42,7 +41,7 @@ function formatoCentroLite(c) {
   };
 }
 
-// parseCoordinates ahora está en `utils.js`
+// parseCoordinates está en `utils.js`
 
 app.get('/test_odo', (req, res) => {
   console.log('[DEBUG] Entró al endpoint /centro_odontologia');
@@ -111,6 +110,7 @@ app.get('/test_odo', (req, res) => {
 // Un solo endpoint:
 // - sin page/limit → devuelve todo (útil para backoffice, pruebas)
 // - con page/limit → paginado (para el bot, paneles, etc.)
+
 app.get('/centros_salud', (req, res) => {
   const total = data.centros_salud.length;
 
@@ -300,6 +300,11 @@ function zonaProgramaticaPorCoordenadas(lat, lon) {
 // ---------------------------
 // START SERVER
 // ---------------------------
-app.listen(PORT, () => {
-  console.log(`Servidor escuchando en http://localhost:${PORT}`);
-});
+
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Servidor escuchando en http://localhost:${PORT}`);
+  });
+}
+
+module.exports = app; // para tests con supertest

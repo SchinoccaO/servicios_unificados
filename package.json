@@ -2,9 +2,9 @@
   "name": "servicios_unificados_api",
   "version": "1.0.0",
   "description": "API local para centros de salud - proyecto de ejemplo",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node src/server.js",
     "test": "mocha --exit"
   },
   "devDependencies": {
@@ -12,5 +12,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
