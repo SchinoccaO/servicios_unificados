@@ -2,11 +2,15 @@
 console.log('✅ Este es el server.js correcto');
 
 const express = require('express');
+const compression = require('compression');
 const data = require('../data/servicios_unificados_full_final.json');
 const { calcularDistancia, parseCoordinates } = require('./utils');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Comprimir respuestas con gzip para optimizar móviles
+app.use(compression());
 
 // MIDDLEWARE DE LOG BÁSICO
 
@@ -27,9 +31,37 @@ app.get('/debug', (req, res) => {
   res.send('OK: estás en el archivo correcto');
 });
 
+// Health check endpoint
+app.get('/health', (req, res) => {
+  try {
+    res.status(200).json({
+      status: 'ok',
+      version: '1.0.0',
+      timestamp: new Date().toISOString(),
+      services: {
+        centros_salud: data?.centros_salud ? true : false,
+        utils_coordenadas: true
+      },
+      metadata: {
+        total_centros: data?.centros_salud?.length || 0,
+        environment: process.env.NODE_ENV || 'development'
+      }
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: 'error',
+      message: 'Health check failed',
+      error: error.message
+    });
+  }
+});
+
 // Haversine y parseo de coordenadas están en `utils.js`
 
+
+
 // Para no repetir estructura en varios endpoints
+// es en formato LITE. la idea es que sea para listados rápidos o mapas.
 function formatoCentroLite(c) {
   return {
     id: c.id,
@@ -38,6 +70,31 @@ function formatoCentroLite(c) {
     direccion: c.direccion,
     latitud: c.latitud,
     longitud: c.longitud
+  };
+}
+
+// Formato completo para listado general
+//
+function formatoCentroCompleto(c) {
+  const hasValidCoords = typeof c.latitud === 'number' && typeof c.longitud === 'number';
+  return {
+    id: c.id,
+    nombre: c.nombre,
+    direccion: c.direccion,
+    zona_programatica: c.zona_programatica,
+    coordenadas: hasValidCoords ? {
+      latitud: c.latitud,
+      longitud: c.longitud,
+      validas: true
+    } : {
+      latitud: null,
+      longitud: null,
+      validas: false
+    },
+    servicios: c.servicios || [],
+    horarios: c.horarios || 'No especificado',
+    mapa_url: hasValidCoords ? `https://maps.google.com/?q=${c.latitud},${c.longitud}` : null,
+    area_programatica: c.area_programatica || {}
   };
 }
 
@@ -108,7 +165,7 @@ app.get('/test_odo', (req, res) => {
 // ---------------------------
 
 // Un solo endpoint:
-// - sin page/limit → devuelve todo (útil para backoffice, pruebas)
+// - sin page/limit → devuelve todo con formato completo (RF1)
 // - con page/limit → paginado (para el bot, paneles, etc.)
 
 app.get('/centros_salud', (req, res) => {
@@ -116,22 +173,12 @@ app.get('/centros_salud', (req, res) => {
 
   const pageRaw = req.query.page;
   const limitRaw = req.query.limit;
-  const zonaFiltro = req.query.zona_programatica;
 
-  // Filtrado por zona programática (opcional)
-  let centrosFiltrados = data.centros_salud;
-  if (zonaFiltro) {
-    centrosFiltrados = centrosFiltrados.filter(
-    c => c.zona_programatica.toLowerCase() === zonaFiltro.toLowerCase()
-    );
-  }
-const totalFiltrados = centrosFiltrados.length;
-
-  // Si NO pasan paginación -> devolver todo
+  // Si NO pasan paginación -> devolver todo con formato completo (cumple RF1)
   if (!pageRaw && !limitRaw) {
     return res.json({
       total,
-      resultados: data.centros_salud
+      resultados: data.centros_salud.map(formatoCentroCompleto)
     });
   }
 
@@ -152,7 +199,7 @@ const totalFiltrados = centrosFiltrados.length;
 
   const start = (page - 1) * limit;
   const end = start + limit;
-  const resultados = data.centros_salud.slice(start, end);
+  const resultados = data.centros_salud.slice(start, end).map(formatoCentroCompleto);
 
   res.json({
     resultados,
@@ -163,15 +210,19 @@ const totalFiltrados = centrosFiltrados.length;
   });
 });
 
-// Un centro por ID
+// Un centro por ID (con soporte para ?detail=lite|completo)
 app.get('/centros_salud/:id', (req, res) => {
+  const detail = req.query.detail || 'lite'; // por defecto lite para móviles
+  
   const centro = data.centros_salud.find(
     c => c.id === req.params.id.toUpperCase()
   );
   if (!centro) {
     return res.status(404).json({ error: 'Centro no encontrado' });
   }
-  res.json(centro);
+  
+  const formatter = detail === 'completo' ? formatoCentroCompleto : formatoCentroLite;
+  res.json(formatter(centro));
 });
 
 // Servicios de un centro (con filtro por callcenter)
@@ -229,7 +280,8 @@ app.get('/centros_cercanos', (req, res) => {
 
   const resultados = centrosOrdenados.slice(0, limit).map(c => ({
     ...formatoCentroLite(c),
-    distancia_km: Number(c.distancia.toFixed(2))
+    distancia_km: Number(c.distancia.toFixed(2)),
+    horarios: c.horarios || 'No especificado'
   }));
 
   res.json({
