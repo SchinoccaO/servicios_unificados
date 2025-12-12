@@ -301,7 +301,7 @@ app.get('/centro_correspondiente', (req, res) => {
   const coords = parseCoordinates(req);
   if (coords.error) return res.status(400).json({ error: coords.error });
   const { lat, lon } = coords;
-  const sugerencias = Math.max(1, Math.min(5, parseInt(req.query.sugerencias) || 3));
+  const sugerencias = Math.max(0, Math.min(5, parseInt(req.query.sugerencias) || 0));
 
   // 1) calculamos distancia a todos (por ahora usamos distancia como criterio
   //    práctico de correspondencia)
@@ -318,11 +318,11 @@ app.get('/centro_correspondiente', (req, res) => {
   }
 
   const principal = centrosOrdenados[0];
-  const alternativas = centrosOrdenados.slice(1, sugerencias);
+  const alternativas = sugerencias > 0 ? centrosOrdenados.slice(1, sugerencias + 1) : [];
 
   // 2) log mínimo para auditoría
   console.log(
-    `[ASIGNACION] lat=${lat}, lon=${lon} -> centro=${principal.id} (${principal.nombre})`
+    `[ASIGNACION] lat=${lat}, lon=${lon} -> centro=${principal.id} (${principal.nombre}), alternativas=${sugerencias}`
   );
 
   res.json({
