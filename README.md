@@ -3,10 +3,10 @@
 Breve guía para ejecutar y entender 
 
 Archivos clave
-- `server.js`: servidor Express con endpoints públicos.
-- `servicios_unificados_full_final.json`: datos de los centros (latitud/longitud).
-- `utils.js`: utilidades compartidas (`calcularDistancia`, `parseCoordinates`).
-- `test_utils.js`: pruebas simples de las utilidades.
+- `src/server.js`: servidor Express con endpoints públicos.
+- `data/servicios_unificados_full_final.json`: datos de los centros (latitud/longitud). 100 centros de salud (CS001-CS101).
+- `src/utils.js`: utilidades compartidas (`calcularDistancia`, `parseCoordinates`).
+- `test/test_utils.js`: pruebas simples de las utilidades.
 
 Requisitos
 - Node.js instalado (versión 14+ recomendable).
@@ -15,7 +15,7 @@ Cómo ejecutar el servidor (PowerShell)
 ```powershell
 # Detener node si está corriendo y arrancar el server
 Get-Process -Name node -ErrorAction SilentlyContinue | Stop-Process -Force
-Start-Process -NoNewWindow -FilePath node -ArgumentList 'server.js' -WorkingDirectory 'C:\Users\gonzalezschinocca_on\Documents\chatbot\servicios_unificados_api'
+Start-Process -NoNewWindow -FilePath node -ArgumentList 'src/server.js' -WorkingDirectory 'C:\Users\gonzalezschinocca_on\Documents\chatbot\servicios_unificados_api'
 Start-Sleep -Seconds 1
 Invoke-RestMethod -Uri 'http://localhost:3000/centros_cercanos?lat=-31.3648&lon=-64.149057&limit=3' -UseBasicParsing | ConvertTo-Json -Depth 5
 ```
@@ -42,8 +42,21 @@ Endpoints principales
   - **Mejora para móviles:** 92% menos datos, 7-10x más rápido.
 
 - `GET /centro_correspondiente?lat={lat}&lon={lon}&sugerencias={n}`
-  - Devuelve el centro asignado más cercano y `n-1` alternativas.
+  - Devuelve el centro asignado (formato lite) y `n` alternativas opcionales.
+  - Por defecto `sugerencias=0` (sin alternativas).
+  - Rango: 0-5 alternativas.
   - Error 404: si no hay centros con coordenadas válidas.
+
+- `GET /centros_salud/:id/servicios?callcenter=true|false`
+  - Devuelve los servicios de un centro específico.
+  - `?callcenter=true`: solo servicios con turno por call center.
+  - `?callcenter=false`: solo servicios sin turno por call center.
+  - Sin parámetro: todos los servicios.
+  - Cada servicio incluye: `nombre`, `turno_callcenter`, `informacion`.
+
+- `GET /health`
+  - Health check endpoint.
+  - Devuelve estado del servidor, versión, y total de centros.
 
 - `GET /test_odo?lat={lat}&lon={lon}`
   - Busca el centro más cercano y verifica si ofrece Odontología.
@@ -67,7 +80,7 @@ Endpoints principales
 
 Pruebas rápidas (sin instalar dependencias)
 ```powershell
-node test_utils.js
+node test/test_utils.js
 
 # O usando mocha (recomendado):
 npm install
@@ -105,7 +118,13 @@ Respuesta compacta para búsquedas rápidas y mapas.
 Respuesta completa con toda la información (RF1).
 
 **Campos adicionales:**
-- `zona_sanitaria`, `coordenadas` (con validación), `servicios`, `horarios`, `mapa_url`, `area_programatica`
+- `coordenadas` (con validación), `servicios`, `horarios`, `mapa_url`, `area_programatica`
+
+**Estructura de servicios:**
+Cada servicio incluye:
+- `nombre`: Nombre del servicio (ej: "Pediatría", "Odontología")
+- `turno_callcenter`: Boolean, indica si se puede sacar turno por call center
+- `informacion`: String, información adicional (ej: "Consultar requisitos en centro")
 
 **Endpoints que lo usan:**
 1. **`GET /centros_salud`** (sin paginación) - Listado completo
