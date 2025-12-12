@@ -122,36 +122,59 @@ app.get('/test_odo', (req, res) => {
   const asignado = centrosOrdenados[0];
 
   // Buscar servicio "Odontología" por nombre exacto
-  const servicioOdo = asignado.servicios.find(
-    s => s.nombre.toLowerCase().includes('odonto')
+  const servicios = Array.isArray(asignado.servicios) ? asignado.servicios : [];
+  const servicioOdo = servicios.find(
+    s => s.nombre && s.nombre.toLowerCase().includes('odonto')
   );
 
   if (servicioOdo) {
-    // Caso A: el centro más cercano tiene odontología
-    return res.json({
-      tipo: 'centro_con_odontologia',
-      centro: {
-        id: asignado.id,
-        nombre: asignado.nombre,
-        direccion: asignado.direccion,
-        zona_programatica: asignado.zona_programatica,
-        distancia_km: Number(asignado.distancia.toFixed(2))
-      },
-      servicio: {
-        nombre: servicioOdo.nombre,
-        turno_callcenter: servicioOdo.turno_callcenter || false
-      }
-    });
+    // Verificar si el servicio de odontología permite turnos por callcenter
+    if (servicioOdo.turno_callcenter) {
+      // Caso A: tiene odontología y permite turnos por callcenter
+      return res.json({
+        tipo: 'centro_con_odontologia',
+        centro: {
+          id: asignado.id,
+          nombre: asignado.nombre,
+          direccion: asignado.direccion,
+          zona_programatica: asignado.zona_programatica,
+          distancia_km: Number(asignado.distancia.toFixed(2))
+        },
+        servicio: {
+          nombre: servicioOdo.nombre,
+          turno_callcenter: true
+        }
+      });
+    } else {
+      // Caso B: tiene odontología pero NO permite turnos por callcenter
+      return res.json({
+        tipo: 'centro_con_odontologia_sin_callcenter',
+        centro: {
+          id: asignado.id,
+          nombre: asignado.nombre,
+          direccion: asignado.direccion,
+          zona_programatica: asignado.zona_programatica,
+          distancia_km: Number(asignado.distancia.toFixed(2))
+        },
+        servicio: {
+          nombre: servicioOdo.nombre,
+          turno_callcenter: false
+        },
+        mensaje: 'Este centro ofrece odontología pero los turnos deben solicitarse de forma presencial.'
+      });
+    }
   } else {
-    // Caso B: no tiene odontología → redirigir a SOM
+    // Caso C: no tiene odontología → redirigir a SOM
+    const som = data.centros_salud.find(c => c.id === 'SOM');
     return res.json({
       tipo: 'sin_odontologia',
       mensaje: 'Tu centro más cercano no ofrece odontología actualmente.',
-      redireccion: {
-        titulo: 'Servicio de Orientación Municipal (SOM)',
-        contacto: '0800-XXX-SOM',
-        link: 'https://cordoba.gob.ar/som'
-      }
+      redireccion: som ? {
+        id: som.id,
+        nombre: som.nombre,
+        direccion: som.direccion,
+        horarios: som.horarios
+      } : null
     });
   }
 });
@@ -237,7 +260,7 @@ app.get('/centros_salud/:id/servicios', (req, res) => {
     return res.status(404).json({ error: 'Centro no encontrado' });
   }
 
-  let servicios = centro.servicios;
+  let servicios = Array.isArray(centro.servicios) ? centro.servicios : [];
   if (callcenter === 'true') {
     servicios = servicios.filter(s => s.turno_callcenter);
   } else if (callcenter === 'false') {
@@ -255,7 +278,7 @@ app.get('/centros_salud/:id/servicios', (req, res) => {
 app.get('/centros_salud_mapa', (req, res) => {
   const centros = data.centros_salud.map(c => ({
     ...formatoCentroLite(c),
-    servicios: c.servicios.map(s => s.nombre) // para resaltar odontología, etc.
+    servicios: Array.isArray(c.servicios) ? c.servicios.map(s => s.nombre || '') : []
   }));
   res.json(centros);
 });
